@@ -172,7 +172,7 @@
       "displayInTopList": false
     },
     "socketio": {
-      "name": "Socket.IO",
+      "name": "SocketIO",
       "logo": "socket.io.png",
       "website": "https://socket.io/",
       "displayInTopList": false
