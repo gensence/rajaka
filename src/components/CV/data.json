@@ -139,30 +139,30 @@
   "skills": {
     "software": {
       "featured": [
-        "C# .Net",
+        "C# .Net"
       ],
       "other": [
         "VC++ MFC",
-        "WIN32 API",
-        "SQLite",
+        "Win32 API",
         "Client-Server Model"
       ]
     },
     "web": {
-      "featured": ["Vanilla PHP", "MySQL", "BIM / CIM"],
+      "featured": ["Vanilla PHP", "MySQL"],
       "other": [
         "CodeIgniter",
         "Vanilla JS",
+        "Node.js",
+        "Socket.io",
         "Bootstrap",
         "CSS 3",
-        "GIT",
-        "CentOS",
         "HTML 5",
         "jQuery",
-        "LESS",
+        "Underscore.js"
         "Apache",
         "Nginx",
         "SQLite",
+        "VBA",
         "LAMP Stack"
       ]
     }
