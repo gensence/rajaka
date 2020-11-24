@@ -12,11 +12,6 @@
         "type": "twitter",
         "link": "https://twitter.com/pacificparam",
         "linkName": "rajaka"
-      },
-      {
-        "type": "",
-        "link": "",
-        "linkName": ""
       }
     ]
   },
@@ -142,65 +137,33 @@
     }
   },
   "skills": {
-    "soft": {
+    "software": {
       "featured": [
-        "Focus on business needs",
-        "Team building / Leadership",
-        "Coaching",
-        "Decision making",
-        "Communication",
-        "Integrity"
+        "C# .Net",
       ],
       "other": [
-        "Scheduling",
-        "Risk Management",
-        "Critical Thinking",
-        "Problem Solving",
-        "Project Recovery",
-        "Task Management",
-        "Business Process Improvement",
-        "Budgeting",
-        "UX Prototyping",
-        "Requirements Analysis",
-        "Conflict Management",
-        "Policy Knowledge"
+        "VC++ MFC",
+        "WIN32 API",
+        "SQLite",
+        "Client-Server Model"
       ]
     },
-    "hard": {
-      "featured": ["Webpack", "ES6 / ES2017"],
+    "web": {
+      "featured": ["Vanilla PHP", "MySQL", "BIM / CIM"],
       "other": [
-        "PHP",
-        "Angular.js",
-        "AWS",
+        "CodeIgniter",
+        "Vanilla JS",
         "Bootstrap",
-        "Backbone.js",
         "CSS 3",
         "GIT",
-        "Gulp",
-        "Google Maps API",
-        "D3.js",
-        "Ember.js",
-        "Fabric UI",
-        "Figma",
-        "Handlebars",
-        "HG",
+        "CentOS",
         "HTML 5",
-        "Illustrator",
-        "Jest",
-        "JIRA",
+        "jQuery",
         "LESS",
-        "Material UI",
-        "Meteor.js",
-        "Regexp",
-        "REST",
-        "SASS",
-        "Semantic UI",
-        "Socket.io",
-        "Stylus",
-        "Styled Components",
-        "Vanilla JS",
-        "Underscore / Lodash",
-        "Counter-Strike"
+        "Apache",
+        "Nginx",
+        "SQLite",
+        "LAMP Stack"
       ]
     }
   },
