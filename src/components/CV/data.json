@@ -27,7 +27,7 @@
       "name": "SeoLig",
       "locationIcon": "chrome.svg",
       "description": "SEOツール集",
-      "builtWith": ["php", "jquery", "bootstrap", "apache"],
+      "builtWith": ["php", "jquery", "bootstrap", "apache", "mysql"],
       "link": "",
       "sourceCode": ""
     },
@@ -35,7 +35,7 @@
       "name": "Cointicker",
       "locationIcon": "chrome.svg",
       "description": "仮想通貨リアルタイム価格リスト",
-      "builtWith": ["codeigniter", "php", "gatsby", "react", "netlify"],
+      "builtWith": ["codeigniter", "php", "node.js.png", "jquery", "socket.io.svg", "bootstrap", "apache", "mysql"],
       "link": "",
       "sourceCode": ""
     },
@@ -50,7 +50,7 @@
       "name": "DailyAlexa",
       "locationIcon": "chrome.svg",
       "description": "毎日のAlexaトラフィックランキング情報を掲載",
-      "builtWith": ["php", "jquery", "apache"],
+      "builtWith": ["php", "jquery", "apache", "mysql"],
       "link": "",
       "sourceCode": ""
     },
@@ -58,7 +58,7 @@
       "name": "Qrcode",
       "locationIcon": "chrome.svg",
       "description": "QRコードデザイン生成ツール",
-      "builtWith": ["gatsby", "react", "netlify"],
+      "builtWith": ["php", "jquery", "bootstrap", "apache"],
       "link": "",
       "sourceCode": ""
     }
@@ -163,6 +163,24 @@
       "name": "CodeIgniter",
       "logo": "codeigniter.png",
       "website": "https://codeigniter.com/",
+      "displayInTopList": false
+    },
+    "nodejs": {
+      "name": "Nodejs",
+      "logo": "node.js.png",
+      "website": "https://nodejs.org/en/",
+      "displayInTopList": false
+    },
+    "socketio": {
+      "name": "Socket.IO",
+      "logo": "socket.io.png",
+      "website": "https://socket.io/",
+      "displayInTopList": false
+    },
+    "mysql": {
+      "name": "MySQL",
+      "logo": "mysql.png",
+      "website": "https://www.mysql.com/",
       "displayInTopList": false
     }
   },
