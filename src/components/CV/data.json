@@ -42,7 +42,7 @@
     {
       "name": "VbaFin",
       "locationIcon": "chrome.svg",
-      "description": "金融専門家向けVBAコードスニペットとDL可能のサンプルを掲載",
+      "description": "金融専門家向けVBAコードとDL可能のサンプルを掲載",
       "builtWith": ["php", "jquery", "apache"],
       "link": ""
     },

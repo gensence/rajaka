@@ -7,6 +7,7 @@ const Layout = ({ children, title, description, keywords, article }) => (
     <Helmet>
       <html lang="en" prefix="og: http://ogp.me/ns#" />
       <title>{title}</title>
+      <meta charset=hUTF-8>
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta property="og:site_name" content={title} />
