@@ -35,7 +35,7 @@
       "name": "Cointicker",
       "locationIcon": "chrome.svg",
       "description": "仮想通貨リアルタイム価格リスト",
-      "builtWith": ["codeigniter", "php", "node.js.png", "jquery", "socket.io.svg", "bootstrap", "apache", "mysql"],
+      "builtWith": ["codeigniter", "php", "nodejs", "jquery", "socketio", "bootstrap", "apache", "mysql"],
       "link": "",
       "sourceCode": ""
     },
