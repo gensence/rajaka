@@ -20,14 +20,14 @@
       "name": "SpotSend",
       "locationIcon": "chrome.svg",
       "description": "大容量ファイル転送サービス",
-      "builtWith": ["php", "electron", "react", "redux", "reduxsaga", "fabric"],
+      "builtWith": ["php", "jquery", "apache"],
       "link": ""
     },
     {
       "name": "SeoLig",
       "locationIcon": "chrome.svg",
       "description": "SEOツール集",
-      "builtWith": ["php", "apollo", "react", "antd"],
+      "builtWith": ["php", "jquery", "bootstrap", "apache"],
       "link": "",
       "sourceCode": ""
     },
@@ -35,7 +35,7 @@
       "name": "Cointicker",
       "locationIcon": "chrome.svg",
       "description": "仮想通貨リアルタイム価格リスト",
-      "builtWith": ["php", "gatsby", "react", "netlify"],
+      "builtWith": ["codeigniter", "php", "gatsby", "react", "netlify"],
       "link": "",
       "sourceCode": ""
     },
@@ -43,14 +43,14 @@
       "name": "VbaFin",
       "locationIcon": "chrome.svg",
       "description": "金融専門家向けVBAコードスニペットとDL可能のサンプルを掲載",
-      "builtWith": ["electron", "react", "redux", "reduxsaga", "fabric"],
+      "builtWith": ["php", "jquery", "apache"],
       "link": ""
     },
     {
       "name": "DailyAlexa",
       "locationIcon": "chrome.svg",
       "description": "毎日のAlexaトラフィックランキング情報を掲載",
-      "builtWith": ["apollo", "react", "antd"],
+      "builtWith": ["php", "jquery", "apache"],
       "link": "",
       "sourceCode": ""
     },
@@ -139,6 +139,30 @@
       "name": "Php",
       "logo": "php.svg",
       "website": "https://php.net/",
+      "displayInTopList": false
+    },
+    "apache": {
+      "name": "Apache",
+      "logo": "apache.svg",
+      "website": "https://apache.org/",
+      "displayInTopList": false
+    },
+    "jquery": {
+      "name": "jQuery",
+      "logo": "jquery.svg",
+      "website": "https://jquery.com/",
+      "displayInTopList": false
+    },
+    "bootstrap": {
+      "name": "Bootstrap",
+      "logo": "bootstrap.svg",
+      "website": "https://getbootstrap.com/",
+      "displayInTopList": false
+    },
+    "codeigniter": {
+      "name": "CodeIgniter",
+      "logo": "codeigniter.svg",
+      "website": "https://codeigniter.com/",
       "displayInTopList": false
     }
   },
