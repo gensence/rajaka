@@ -18,16 +18,16 @@
   "experiments": [
     {
       "name": "SpotSend",
-      "locationIcon": "windows-store.svg",
-      "description": "データ便を簡単操作で送付",
-      "builtWith": ["electron", "react", "redux", "reduxsaga", "fabric"],
+      "locationIcon": "chrome.svg",
+      "description": "大容量ファイル転送サービス",
+      "builtWith": ["php", "electron", "react", "redux", "reduxsaga", "fabric"],
       "link": ""
     },
     {
       "name": "SeoLig",
-      "locationIcon": "chrome-webstore.svg",
+      "locationIcon": "chrome.svg",
       "description": "SEOツール集",
-      "builtWith": ["apollo", "react", "antd"],
+      "builtWith": ["php", "apollo", "react", "antd"],
       "link": "",
       "sourceCode": ""
     },
@@ -35,20 +35,20 @@
       "name": "Cointicker",
       "locationIcon": "chrome.svg",
       "description": "仮想通貨リアルタイム価格リスト",
-      "builtWith": ["gatsby", "react", "netlify"],
+      "builtWith": ["php", "gatsby", "react", "netlify"],
       "link": "",
       "sourceCode": ""
     },
     {
       "name": "VbaFin",
-      "locationIcon": "windows-store.svg",
-      "description": "金融専門家向けVBAコードスニペットとダウンロード可能なサンプルプロジェクトを掲載",
+      "locationIcon": "chrome.svg",
+      "description": "金融専門家向けVBAコードスニペットとDL可能のサンプルを掲載",
       "builtWith": ["electron", "react", "redux", "reduxsaga", "fabric"],
       "link": ""
     },
     {
       "name": "DailyAlexa",
-      "locationIcon": "chrome-webstore.svg",
+      "locationIcon": "chrome.svg",
       "description": "毎日のAlexaトラフィックランキング情報を掲載",
       "builtWith": ["apollo", "react", "antd"],
       "link": "",
@@ -133,6 +133,12 @@
       "name": "Netlify",
       "logo": "netlify.svg",
       "website": "https://www.netlify.com/",
+      "displayInTopList": false
+    },
+    "php": {
+      "name": "Php",
+      "logo": "php.svg",
+      "website": "https://php.net/",
       "displayInTopList": false
     }
   },
