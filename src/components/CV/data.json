@@ -173,13 +173,13 @@
     },
     "socketio": {
       "name": "SocketIO",
-      "logo": "socket.io.png",
+      "logo": "socket.io.svg",
       "website": "https://socket.io/",
       "displayInTopList": false
     },
     "mysql": {
       "name": "MySQL",
-      "logo": "mysql.png",
+      "logo": "mysql.svg",
       "website": "https://www.mysql.com/",
       "displayInTopList": false
     }
