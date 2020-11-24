@@ -4,11 +4,11 @@ import Header from './Header'
 import Sidebar from '../Sidebar'
 {/*import TopTech from './TopTech'
 import Experience from './Experience'
-import PitchLine from './PitchLine'
 import Volunteer from './Volunteer'
 import Education from './Education'
 import Recommendations from './Recommendations'*/}
 import Experiments from './Experiments'
+import PitchLine from './PitchLine'
 import SkillList from './SkillList'
 import Footer from './Footer'
 import data from './data.json'
@@ -22,6 +22,7 @@ const CV = () => (
       {data.experiments && (
         <Experiments experiments={data.experiments} tech={data.tech} />
       )}
+      {data.pitchLine && <PitchLine pitchLine={data.pitchLine} />}
       {data.skills && <SkillList skills={data.skills} />}
    {/*{data.pitchLine && <PitchLine pitchLine={data.pitchLine} />}
       {data.tech && data.topTech && <TopTech topTech={data.topTech} tech={data.tech} />}

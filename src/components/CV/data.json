@@ -25,7 +25,7 @@
     },
     {
       "name": "SeoLig",
-      "locationIcon": "japan.svg",
+      "locationIcon": "",
       "description": "SEOツール集",
       "builtWith": ["php", "jquery", "bootstrap", "apache", "mysql"],
       "link": "",
@@ -33,7 +33,7 @@
     },
     {
       "name": "Cointicker",
-      "locationIcon": "japan.svg",
+      "locationIcon": "",
       "description": "仮想通貨リアルタイム価格リスト",
       "builtWith": ["codeigniter", "php", "nodejs", "jquery", "socketio", "bootstrap", "apache", "mysql"],
       "link": "",
@@ -63,16 +63,11 @@
       "sourceCode": ""
     }
   ],
-  "pitchLine": "My passions are — web-development, cognitive biases and anthropology.",
+  "pitchLine": "Likes",
   "topTech": [
-    "react",
-    "graphql",
-    "apollo",
-    "redux",
-    "reduxsaga",
-    "electron",
-    "gatsby",
-    "antd"
+    "php",
+    "codeigniter",
+    "mysql"
   ],
   "tech": {
     "react": {
@@ -139,7 +134,7 @@
       "name": "Php",
       "logo": "php.svg",
       "website": "https://php.net/",
-      "displayInTopList": false
+      "displayInTopList": true
     },
     "apache": {
       "name": "Apache",
@@ -163,7 +158,7 @@
       "name": "CodeIgniter",
       "logo": "codeigniter.png",
       "website": "https://codeigniter.com/",
-      "displayInTopList": false
+      "displayInTopList": true
     },
     "nodejs": {
       "name": "Nodejs",
@@ -181,7 +176,7 @@
       "name": "MySQL",
       "logo": "mysql.svg",
       "website": "https://www.mysql.com/",
-      "displayInTopList": false
+      "displayInTopList": true
     }
   },
   "skills": {
