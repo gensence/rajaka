@@ -1,6 +1,6 @@
 {
   "header": {
-    "name": "RAJAKA",
+    "name": "Raja",
     "position": "SOFTWARE DEVELOPER",
     "img": {
       "src": "/photo.jpg",
@@ -11,21 +11,21 @@
       {
         "type": "twitter",
         "link": "https://twitter.com/pacificparam",
-        "linkName": "rajaka"
+        "linkName": "Raja"
       }
     ]
   },
   "experiments": [
     {
       "name": "SpotSend",
-      "locationIcon": "chrome.svg",
+      "locationIcon": "globe.svg",
       "description": "大容量ファイル転送サービス",
       "builtWith": ["php", "jquery", "apache"],
       "link": ""
     },
     {
       "name": "SeoLig",
-      "locationIcon": "chrome.svg",
+      "locationIcon": "japan.svg",
       "description": "SEOツール集",
       "builtWith": ["php", "jquery", "bootstrap", "apache", "mysql"],
       "link": "",
@@ -33,7 +33,7 @@
     },
     {
       "name": "Cointicker",
-      "locationIcon": "chrome.svg",
+      "locationIcon": "japan.svg",
       "description": "仮想通貨リアルタイム価格リスト",
       "builtWith": ["codeigniter", "php", "nodejs", "jquery", "socketio", "bootstrap", "apache", "mysql"],
       "link": "",
@@ -41,14 +41,14 @@
     },
     {
       "name": "VbaFin",
-      "locationIcon": "chrome.svg",
-      "description": "金融専門家向けVBAコードとDL可能のサンプルを掲載",
+      "locationIcon": "globe.svg",
+      "description": "金融専門家向けVBAコードとDL可能サンプルを掲載",
       "builtWith": ["php", "jquery", "apache"],
       "link": ""
     },
     {
       "name": "DailyAlexa",
-      "locationIcon": "chrome.svg",
+      "locationIcon": "globe.svg",
       "description": "毎日のAlexaトラフィックランキング情報を掲載",
       "builtWith": ["php", "jquery", "apache", "mysql"],
       "link": "",
@@ -56,7 +56,7 @@
     },
     {
       "name": "Qrcode",
-      "locationIcon": "chrome.svg",
+      "locationIcon": "globe.svg",
       "description": "QRコードデザイン生成ツール",
       "builtWith": ["php", "jquery", "bootstrap", "apache"],
       "link": "",
