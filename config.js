@@ -22,10 +22,6 @@ module.exports = {
   author: {
     name: 'Rajaka.net',
     photo: '/photo.jpg',
-    bio: '',
-    contacts: {
-    name: 'Rajaka.net',
-    photo: '/photo.jpg',
     bio: 'Developer. Optimizer. Learner.',
     contacts: {
       github: 'dospolov',
