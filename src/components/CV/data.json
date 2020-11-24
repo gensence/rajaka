@@ -12,6 +12,11 @@
         "type": "twitter",
         "link": "https://twitter.com/pacificparam",
         "linkName": "rajaka"
+      },
+      {
+        "type": "github",
+        "link": "",
+        "linkName": ""
       }
     ]
   },
