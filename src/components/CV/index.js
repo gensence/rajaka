@@ -2,13 +2,13 @@ import React from 'react'
 import { Layout } from 'antd'
 import Header from './Header'
 import Sidebar from '../Sidebar'
-{/*import TopTech from './TopTech'
-import Experience from './Experience'
+{/*import Experience from './Experience'
 import Volunteer from './Volunteer'
 import Education from './Education'
 import Recommendations from './Recommendations'*/}
 import Experiments from './Experiments'
 import PitchLine from './PitchLine'
+import TopTech from './TopTech'
 import SkillList from './SkillList'
 import Footer from './Footer'
 import data from './data.json'
@@ -23,10 +23,9 @@ const CV = () => (
         <Experiments experiments={data.experiments} tech={data.tech} />
       )}
       {data.pitchLine && <PitchLine pitchLine={data.pitchLine} />}
-      {data.skills && <SkillList skills={data.skills} />}
-   {/*{data.pitchLine && <PitchLine pitchLine={data.pitchLine} />}
       {data.tech && data.topTech && <TopTech topTech={data.topTech} tech={data.tech} />}
-      {data.experience && <Experience experience={data.experience} />}
+      {data.skills && <SkillList skills={data.skills} />}
+   {/*{data.experience && <Experience experience={data.experience} />}
       {data.volunteer && <Volunteer volunteer={data.volunteer} />}
       {data.education && <Education education={data.education} />}
       {data.recommendations && <Recommendations recommendations={data.recommendations} />}*/}
