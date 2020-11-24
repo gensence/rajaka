@@ -8,7 +8,7 @@ const Header = ({ header }) => (
         <img src="/logos/pdf.svg" height="50" alt="pdf icon" />
       </a>
     </Col>*/}
-    <Col span={8} className="text-right">
+    <Col span={10} className="text-right">
       <h2 className="text-2xl">{header.name}</h2>
       <h5>{header.position}</h5>
     </Col>
