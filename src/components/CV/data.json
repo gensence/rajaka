@@ -12,11 +12,6 @@
         "type": "twitter",
         "link": "https://twitter.com/pacificparam",
         "linkName": "rajaka"
-      },
-      {
-        "type": "github",
-        "link": "",
-        "linkName": ""
       }
     ]
   },
@@ -153,21 +148,22 @@
       ]
     },
     "web": {
-      "featured": ["Vanilla PHP", "MySQL"],
+      "featured": ["Vanilla PHP"],
       "other": [
         "CodeIgniter",
         "Vanilla JS",
-        "Node.js",
-        "Socket.io",
-        "Bootstrap",
+        "VBA",
         "CSS 3",
         "HTML 5",
+        "Bootstrap",
+        "Node.js",
         "jQuery",
+        "Socket.io",
         "Underscore.js",
         "Apache",
         "Nginx",
+        "MySQL",
         "SQLite",
-        "VBA",
         "LAMP Stack"
       ]
     }
