@@ -21,7 +21,7 @@ module.exports = {
   ],
   author: {
     name: 'Rajaka.net',
-    photo: '',
+    photo: '/logo.jpg',
     bio: 'Developer. Optimizer. Learner.',
     contacts: {
       github: '',
