@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Marat Dospolov]]></title><description><![CDATA[Developer. Optimizer. Learner.]]></description><link>https://gifted-mcclintock-4f3509.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Nov 2020 11:49:05 GMT</lastBuildDate><item><title><![CDATA[[Reverse interview: Questions to ask the company during your interview ](https://github.com/dospolov/reverse-interview)]]></title><description><![CDATA[List of the questions from dev to the company. Fork it or use it as is.]]></description><link>https://gifted-mcclintock-4f3509.netlify.app/posts/reverse-interview</link><guid isPermaLink="false">https://gifted-mcclintock-4f3509.netlify.app/posts/reverse-interview</guid><pubDate>Wed, 06 May 2020 13:23:37 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[[Petition: Ban Anti-Vaccination propaganda at Facebook/Youtube/Instagram/Twitter](https://www.change.org/ban-anti-vaccination-propaganda)]]></title><description><![CDATA[All the largest online social networks (Facebook/Youtube/Instagram/Twitter) should ban Anti-Vaccination posts and users; add an option to report profile/post with this reason]]></description><link>https://gifted-mcclintock-4f3509.netlify.app/posts/petition-ban-anti-vaccination-propaganda</link><guid isPermaLink="false">https://gifted-mcclintock-4f3509.netlify.app/posts/petition-ban-anti-vaccination-propaganda</guid><pubDate>Tue, 28 Apr 2020 00:46:37 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Chrome custom JS and CSS extension]]></title><description><![CDATA[Chrome custom JS and CSS extension]]></description><link>https://gifted-mcclintock-4f3509.netlify.app/posts/chrome-custom-js-and-css-extension</link><guid isPermaLink="false">https://gifted-mcclintock-4f3509.netlify.app/posts/chrome-custom-js-and-css-extension</guid><pubDate>Sat, 18 Apr 2020 22:22:02 GMT</pubDate><content:encoded>&lt;p&gt;Using websites a lot - there might be a need to improve UX or UI.&lt;/p&gt;
+&lt;p&gt;For example, &lt;a href=&quot;/posts/block-youtube-suggested-videos-overlay&quot;&gt;Block Youtube suggested videos overlay&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There are plenty of tools to change the website’s CSS (&lt;a href=&quot;https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en&quot;&gt;Stylebot&lt;/a&gt;, &lt;a href=&quot;https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en&quot;&gt;Stylus&lt;/a&gt;) and JS (&lt;a href=&quot;https://chrome.google.com/webstore/detail/custom-javascript-for-web/ddbjnfjiigjmcpcpkmhogomapikjbjdk?hl=en&quot;&gt;Custom Javascript for Websites&lt;/a&gt;) and many more.&lt;/p&gt;
+&lt;p&gt;Mostly they are working fine, but there are several missing parts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;No sharing settings between accounts. You should setup plugin individually for each profile and copy rules on each change.&lt;/li&gt;
+&lt;li&gt;No automatic backup. You can store data in file, but again, you should update it manually on each change.&lt;/li&gt;
+&lt;li&gt;Separate plugins for CSS and JS. Each plugin affects your browser speed and performance is important.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So I’ve made a ”&lt;a href=&quot;https://github.com/dospolov/dna&quot;&gt;DNA&lt;/a&gt;” Chrome extension. Steps to setup:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a repository using &lt;a href=&quot;https://github.com/dospolov/dna&quot;&gt;DNA&lt;/a&gt; as a &lt;code&gt;template&lt;/code&gt; at your GitHub account.&lt;/li&gt;
+&lt;li&gt;Write your CSS and JS rules in &lt;code&gt;rules&lt;/code&gt; array:
+&lt;img src=&quot;/media/dna-1/dna-1.png&quot; alt=&quot;rules sample&quot; title=&quot;rules sample&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Load the &lt;code&gt;build&lt;/code&gt; folder as an &lt;a href=&quot;https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/&quot;&gt;unpacked extension&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Profit!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now you can set up your rules and persist in your GitHub account.&lt;/p&gt;
+&lt;p&gt;P.S. Here is how one of song translation site looks with &lt;a href=&quot;https://github.com/dospolov/dna&quot;&gt;DNA&lt;/a&gt; (before and after):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/dna-1/dna-2.png&quot; alt=&quot;amalgama-lab.com with custom styles&quot; title=&quot;amalgama-lab.com with custom styles&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Brown background used to reduce eye fatigue.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Fix Chrome scroll flickering]]></title><description><![CDATA[If you faced with scrolling issues in Chrome - disable this flag 
+```chrome://flags/#disable-threaded-scrolling```]]></description><link>https://gifted-mcclintock-4f3509.netlify.app/posts/fix-chrome-scroll-flickering</link><guid isPermaLink="false">https://gifted-mcclintock-4f3509.netlify.app/posts/fix-chrome-scroll-flickering</guid><pubDate>Sat, 08 Feb 2020 22:22:02 GMT</pubDate><content:encoded>&lt;p&gt;If you faced with scrolling issues in Chrome - disable this flag &lt;code&gt;chrome://flags/#disable-threaded-scrolling&lt;/code&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Autoplay Twitter videos with sound]]></title><description><![CDATA[It might be annoying scroll Twitter videos and click on each to hear sound. Here is the quick hack. It will unmute video when you hover and mute again when your cursor is out video.]]></description><link>https://gifted-mcclintock-4f3509.netlify.app/posts/twitter-videos-with-sound</link><guid isPermaLink="false">https://gifted-mcclintock-4f3509.netlify.app/posts/twitter-videos-with-sound</guid><pubDate>Fri, 31 Jan 2020 00:40:32 GMT</pubDate><content:encoded>&lt;p&gt;It might be annoying scroll Twitter videos and click on each to hear sound. Here is the quick hack. It will unmute video when you hover and mute again when your cursor is out video.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Install &lt;a href=&quot;https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija&quot;&gt;Custom JavaScript for websites&lt;/a&gt; plugin&lt;/li&gt;
+&lt;li&gt;Go to &lt;a href=&quot;https://twitter.com/&quot;&gt;twitter.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Open Custom JavaScript for websites plugin and paste this code:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;window.addEventListener(&apos;mouseover&apos;, ({ target }) =&gt; {
+  if (target.tagName === &apos;VIDEO&apos;) {
+    target.muted = false
+  }
+})
+
+window.addEventListener(&apos;mouseout&apos;, ({ target }) =&gt; {
+  if (target.tagName === &apos;VIDEO&apos;) {
+    target.muted = true
+  }
+})
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[Block Youtube suggested videos overlay]]></title><description><![CDATA[Often a part of a video is obstructed by the suggested video overlay. Here’s how you can hide the overlay.]]></description><link>https://gifted-mcclintock-4f3509.netlify.app/posts/block-youtube-suggested-videos-overlay</link><guid isPermaLink="false">https://gifted-mcclintock-4f3509.netlify.app/posts/block-youtube-suggested-videos-overlay</guid><pubDate>Wed, 11 Dec 2019 16:38:53 GMT</pubDate><content:encoded>&lt;p&gt;Sometimes you may struggle with Youtube Suggested Videos overlay:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/ublock-youtube-overlay/01.png&quot; alt=&quot;Youtube suggested videos overlay sample&quot; title=&quot;Sample&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Here is a quick guide to get rid of them.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Install &lt;a href=&quot;https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm&quot;&gt;uBlock Origin&lt;/a&gt; (Ablock/ABP works as well)&lt;/li&gt;
+&lt;li&gt;Go to Options -&gt; My filters&lt;/li&gt;
+&lt;li&gt;Add this code:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-ce-expanding-image
+youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this.ytp-ce-element-show.ytp-ce-bottom-right-quad.ytp-ce-size-640
+youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+www.youtube.com##.ytp-ce-element
+www.youtube.com##.ytp-cards-teaser
+www.youtube.com##.ytp-pause-overlay
+www.youtube.com##.ytp-fullerscreen-edu-button
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Save&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Account Surfer gets Microsoft Award]]></title><description><![CDATA[Account Surfer became "3rd in Best Business or Consumer Value" at Microsoft 365 app award]]></description><link>https://gifted-mcclintock-4f3509.netlify.app/posts/account-surfer-gets-microsoft-award</link><guid isPermaLink="false">https://gifted-mcclintock-4f3509.netlify.app/posts/account-surfer-gets-microsoft-award</guid><pubDate>Wed, 23 Oct 2019 14:36:12 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/media/as-award/01.png&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to handle multiple Chrome profiles with Account Surfer?]]></title><description><![CDATA[Quickly switch between accounts and browsers on Windows with Account Surfer.]]></description><link>https://gifted-mcclintock-4f3509.netlify.app/posts/handle-chrome-profiles-with-account-surfer</link><guid isPermaLink="false">https://gifted-mcclintock-4f3509.netlify.app/posts/handle-chrome-profiles-with-account-surfer</guid><pubDate>Tue, 16 Jul 2019 21:19:27 GMT</pubDate><content:encoded>&lt;p&gt;It’s very convenient to separate your areas of activity using accounts in Chrome. You don’t lose your bookmarks, you don’t have to log out anywhere, necessary extensions are already installed.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&quot;https://www.makeuseof.com/tag/custom-chrome-browser-profiles/&quot;&gt;read more&lt;/a&gt; how to organize your Chrome space better.&lt;/p&gt;
+&lt;p&gt;But if you are a Power User and constantly switch between profiles, there is one problem. When you open a link not from Chrome (Mail app, Skype, Word, etc.), the system opens the last used Chrome account.&lt;/p&gt;
+&lt;p&gt;
+		&lt;video
+			src=/media/as-1/01.mp4
+			width=&quot;600&quot;
+			height=&quot;auto&quot;
+			preload=&quot;auto&quot;
+			muted=&quot;true&quot;
+			title=&quot;by default, Chrome opens the last used account&quot;
+			autoplay
+			playsinline
+			
+			loop
+		&gt;&lt;/video&gt;
+	&lt;/p&gt;
+&lt;p&gt;For these purposes, I created &lt;a href=&quot;https://www.microsoft.com/store/apps/9PHVP9RJR7R7&quot;&gt;Account Surfer&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/as-1/02.png&quot; alt=&quot;Account Surfer home screen&quot; title=&quot;All my browsers and accounts on a single screen of Account Surfer&quot;&gt;&lt;/p&gt;
+&lt;p&gt;When you open a link, Account Surfer asks in which profile to open it and you can save the domain always opened there:&lt;/p&gt;
+&lt;p&gt;
+		&lt;video
+			src=/media/as-1/03.mp4
+			width=&quot;600&quot;
+			height=&quot;auto&quot;
+			preload=&quot;auto&quot;
+			muted=&quot;true&quot;
+			title=&quot;Account Surfer saves domain and links it to Chrome profile&quot;
+			autoplay
+			playsinline
+			
+			loop
+		&gt;&lt;/video&gt;
+	&lt;/p&gt;
+&lt;p&gt;Accounts can now be opened even faster using hotkeys:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/as-1/04.png&quot; alt=&quot;Account Surfer hotkeys&quot; title=&quot;Account Surfer hotkeys&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Automate your routine and get the most out of your tools with &lt;a href=&quot;https://www.microsoft.com/store/apps/9PHVP9RJR7R7&quot;&gt;Account Surfer&lt;/a&gt;!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Trello + GTD = Trello Bookmark]]></title><description><![CDATA[You know, I hate routine.
+But one of the greatest things about being a programmer is that you can automate your routine.]]></description><link>https://gifted-mcclintock-4f3509.netlify.app/posts/trello-plus-gtd-equals-trello-bookmark</link><guid isPermaLink="false">https://gifted-mcclintock-4f3509.netlify.app/posts/trello-plus-gtd-equals-trello-bookmark</guid><pubDate>Wed, 27 Mar 2019 00:46:37 GMT</pubDate><content:encoded>&lt;p&gt;You know, I hate routine.&lt;/p&gt;
+&lt;p&gt;But one of the greatest things about being a programmer is that you can automate your routine.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;As bequeathed by David Allen, in his brilliant GTD: “Put everything out needless of your head to keep it clean and concentrated.”&lt;/p&gt;
+&lt;p&gt;Let’s see what gets there:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ideas (develop an Android app for blind puppies);&lt;/li&gt;
+&lt;li&gt;tasks (take out the cat, pet the trash, pass the report);&lt;/li&gt;
+&lt;li&gt;projects with detailed plans and task lists (trip to Somalia, meeting the girl’s parents);&lt;/li&gt;
+&lt;li&gt;notes (Mike snores, not worth to live with him in one tent).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Typically, the practical application of GTD in Trello ends here. However, if you look carefully, you should add browser bookmarks here. Many of us just save them in the browser. They accumulate there and eventually remain without attention.&lt;/p&gt;
+&lt;p&gt;There are several standard solutions for adding a card to Trello:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trello application for the desktop.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/media/trello-gtd/01.png&quot; alt=&quot;Trello desktop&quot; title=&quot;Trello desktop&quot;&gt;&lt;/p&gt;
+&lt;p&gt;However, this is not very suitable for saving bookmarks, because you cannot add a screenshot. The link fits into the description, not as an attachment. So the name of the bookmark will have to be typed manually.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trello chrome extensions. It has many solutions, varying degrees of readiness and stability. In any case, you cannot upload a screenshot or you have got a lot of manual work.&lt;/li&gt;
+&lt;li&gt;Manually create a card on Trello.com. It is suitable for people who have a lot of free time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Upon the whole, not finding a suitable solution — I wrote my own plugin. Meet &lt;a href=&quot;https://chrome.google.com/webstore/detail/trello-bookmark/ephoopolmejjnjkbbdcfgoohokhnekca&quot;&gt;Trello Bookmark&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Here’s what it has:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;board and list selection (personal and team);&lt;/li&gt;
+&lt;li&gt;position in the list;&lt;/li&gt;
+&lt;li&gt;name of the card;&lt;/li&gt;
+&lt;li&gt;description;&lt;/li&gt;
+&lt;li&gt;link (as an attachment);&lt;/li&gt;
+&lt;li&gt;cover;&lt;/li&gt;
+&lt;li&gt;labels;&lt;/li&gt;
+&lt;li&gt;due date;&lt;/li&gt;
+&lt;li&gt;assignee;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And additionally to above-stated:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;it supports hotkeys (keyboard navigation through tab and arrows, saving by CTRL + enter);&lt;/li&gt;
+&lt;li&gt;advanced logic field by default.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/media/trello-gtd/02.png&quot; alt=&quot;Trello Bookmark default locations&quot; title=&quot;Trello Bookmark default locations&quot;&gt;&lt;/p&gt;
+&lt;p&gt;You can link the site you often visit a specific path for the card and the plugin will offer it by default. This means that you relieved to enter the address every time. You can also give a special path for a new browser tab. Then the plugin will open with empty fields (convenient for saving quick tasks to inbox):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/trello-gtd/03.png&quot; alt=&quot;Google Chrome new tab with Trello Bookmark&quot; title=&quot;Google Chrome new tab with Trello Bookmark&quot;&gt;&lt;/p&gt;
+&lt;p&gt;If the plugin is opened on a site that is not added in the settings, the last used path is suggested. All these features may seem overkill, but if you add tens or hundreds of cards a day, they save you a lot of time.&lt;/p&gt;
+&lt;p&gt;Here’s what one of the boards with my girlfriend looks like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/trello-gtd/04.png&quot; alt=&quot;Trello cooking board&quot; title=&quot;Trello cooking board&quot;&gt;&lt;/p&gt;
+&lt;p&gt;You may have noticed that my new chrome tab looks unusual.&lt;/p&gt;
+&lt;p&gt;I was always annoyed that I couldn’t get a summary of tasks from different boards and teams in Trello and make a list for the day. And this is very important, especially if you follow the M. I. T. technique.&lt;/p&gt;
+&lt;p&gt;As a result, thanks to the Open Trello API, I made another plugin that pulls out cards according to a certain criterion:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/trello-gtd/05.png&quot; alt=&quot;Trello Picker&quot; title=&quot;Trello Picker&quot;&gt;&lt;/p&gt;
+&lt;p&gt;At the moment, this criterion is the presence of a red label “!!!”. In the future, I will add the ability to put down your criteria: for example, tasks with a deadline for today.&lt;/p&gt;
+&lt;p&gt;While the plugin is not available for public use, write in the comments or me on marat.dospolov@gmail.com if you want to get it faster.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Trello is an amazing tool that can solve most of your tasks, especially if you apply a little magic!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/trello-gtd/06.png&quot; alt=&quot;“One ring to rule them all.”&quot; title=&quot;“One ring to rule them all.”&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Automatically add friends to Facebook]]></title><description><![CDATA[Adds people with more than 10 common friends.]]></description><link>https://gifted-mcclintock-4f3509.netlify.app/posts/add-friends-fb</link><guid isPermaLink="false">https://gifted-mcclintock-4f3509.netlify.app/posts/add-friends-fb</guid><pubDate>Wed, 08 Aug 2018 01:14:45 GMT</pubDate><content:encoded>&lt;p&gt;Adds people with more than 10 common friends.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Change the number to the desired: &lt;code&gt;var minSharedFriends = 10;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Run at this location: &lt;a href=&quot;https://www.facebook.com/?sk=ff&quot;&gt;https://www.facebook.com/?sk=ff
+&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;var minSharedFriends = 10
+
+var addFriendsCount = 100
+var addPause = 3 * 1000
+
+function waitForScroll() {
+  return new Promise(function(resolve, reject) {
+    var it = 0
+    var interval = window.setInterval(
+      function() {
+        console.log(&apos;Wait...&apos;)
+        if (it++ &gt; 15) {
+          window.clearInterval(interval)
+          resolve()
+        }
+        window.scrollBy(0, 2000)
+      },
+      800,
+      resolve
+    )
+  })
+}
+
+waitForScroll().then(function() {
+  var added = 0
+  var addFriends = document.querySelectorAll(
+    &apos;#fbSearchResultsBox li.friendBrowserListUnit&apos;
+  )
+  addFriends = Array.prototype.slice.call(addFriends).reverse()
+
+  var clickInterval = window.setInterval(function() {
+    if (!addFriends.length || added++ == addFriendsCount) {
+      window.clearInterval(clickInterval)
+      return
+    }
+
+    var re = / ([0-9]+) /i
+    var liElem = addFriends.pop()
+    var button = liElem.querySelector(&apos;button.FriendRequestAdd&apos;)
+    var sharedFriends = liElem.querySelector(&apos;.friendBrowserSocialContext&apos;)
+    var personName = liElem.querySelector(&apos;.friendBrowserNameTitle&apos;).innerText
+    var sharedFriendsCount = 0
+
+    if (
+      sharedFriends &amp;#x26;&amp;#x26;
+      sharedFriends.innerText &amp;#x26;&amp;#x26;
+      sharedFriends.innerText.length &amp;#x26;&amp;#x26;
+      re.exec(sharedFriends.innerText) !== null &amp;#x26;&amp;#x26;
+      re.exec(sharedFriends.innerText).length &amp;#x26;&amp;#x26;
+      re.exec(sharedFriends.innerText)[&apos;1&apos;]
+    )
+      sharedFriendsCount = parseInt(re.exec(sharedFriends.innerText)[&apos;1&apos;], 10)
+
+    button.scrollIntoView(false)
+    if (sharedFriendsCount &gt;= minSharedFriends) {
+      console.log(&apos;Friend request sent: &apos; + personName)
+      button.click()
+    } else {
+      console.log(&apos;Not enough mutual friends: &apos; + personName)
+    }
+
+    try {
+      document.querySelector(&apos;div[role=&quot;dialog&quot;] a.layerCancel&apos;).click()
+    } catch (e) {}
+  }, addPause)
+})
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[Complete guide to switching CRLF -> LF for Windows]]></title><description><![CDATA[Complete guide to force setup LF End-of-line for all your Git projects working on Windows.]]></description><link>https://gifted-mcclintock-4f3509.netlify.app/posts/crlf-to-lf</link><guid isPermaLink="false">https://gifted-mcclintock-4f3509.netlify.app/posts/crlf-to-lf</guid><pubDate>Thu, 21 Jun 2018 12:22:42 GMT</pubDate><content:encoded>&lt;p&gt;Complete guide to force setup LF End-of-line for all your Git projects working on Windows.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;Run&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;git config --global core.autocrlf false
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;from &lt;code&gt;Git Console&lt;/code&gt; or when install &lt;a href=&quot;https://git-scm.com/download/win&quot;&gt;Git&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/media/crlf-to-lf/01.png&quot; alt=&quot;Git install window&quot; title=&quot;Git install window&quot;&gt;&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Run&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;git rm --cached -r .
+git reset --hard
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;from &lt;code&gt;Git Console&lt;/code&gt; from the root of your project&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Edit &lt;code&gt;eol&lt;/code&gt; VS Code settings (User and Workspace):&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;/media/crlf-to-lf/02.png&quot; alt=&quot;VS Code End of line settings&quot; title=&quot;VS Code End of line settings&quot;&gt;&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Create &lt;code&gt;.gitattributes&lt;/code&gt; at the root folder:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;# Set the default behavior, in case people don&apos;t have core.autocrlf set.
+* text eol=lf
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.c text
+*.h text
+
+# Declare files that will always have CRLF line endings on checkout.
+*.sln text eol=crlf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+&lt;/code&gt;&lt;/pre&gt;</content:encoded></item></channel></rss>
