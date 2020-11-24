@@ -24,7 +24,12 @@ module.exports = {
     photo: '',
     bio: 'Developer. Optimizer. Learner.',
     contacts: {
+      github: '',
       twitter: 'pacificparam',
+      linkedin: '',
+      telegram: '',
+      instagram: '',
+      facebook: '',
       email: 'info@rajaka.net',
       rss: '/rss.xml'
     }
