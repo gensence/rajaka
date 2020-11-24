@@ -20,14 +20,14 @@
       "name": "SpotSend",
       "locationIcon": "globe.svg",
       "description": "大容量ファイル転送サービス",
-      "builtWith": ["php", "jquery", "apache"],
+      "builtWith": ["php", "jquery", "apache", "centos"],
       "link": ""
     },
     {
       "name": "SeoLig",
       "locationIcon": "",
       "description": "SEOツール集",
-      "builtWith": ["php", "jquery", "bootstrap", "apache", "mysql"],
+      "builtWith": ["php", "jquery", "bootstrap", "apache", "mysql", "centos"],
       "link": "",
       "sourceCode": ""
     },
@@ -35,7 +35,7 @@
       "name": "Cointicker",
       "locationIcon": "",
       "description": "仮想通貨リアルタイム価格リスト",
-      "builtWith": ["codeigniter", "php", "nodejs", "jquery", "socketio", "bootstrap", "apache", "mysql"],
+      "builtWith": ["codeigniter", "php", "nodejs", "jquery", "socketio", "bootstrap", "apache", "mysql", "centos"],
       "link": "",
       "sourceCode": ""
     },
@@ -43,14 +43,14 @@
       "name": "VbaFin",
       "locationIcon": "globe.svg",
       "description": "金融専門家向けVBAコードとDL可能サンプルを掲載",
-      "builtWith": ["php", "jquery", "apache"],
+      "builtWith": ["php", "jquery", "apache", "centos"],
       "link": ""
     },
     {
       "name": "DailyAlexa",
       "locationIcon": "globe.svg",
       "description": "毎日のAlexaトラフィックランキング情報を掲載",
-      "builtWith": ["php", "jquery", "apache", "mysql"],
+      "builtWith": ["php", "jquery", "apache", "mysql", "centos"],
       "link": "",
       "sourceCode": ""
     },
@@ -58,7 +58,7 @@
       "name": "Qrcode",
       "locationIcon": "globe.svg",
       "description": "QRコードデザイン生成ツール",
-      "builtWith": ["php", "jquery", "bootstrap", "apache"],
+      "builtWith": ["php", "jquery", "bootstrap", "apache", "centos"],
       "link": "",
       "sourceCode": ""
     }
@@ -131,7 +131,7 @@
       "displayInTopList": false
     },
     "php": {
-      "name": "Php",
+      "name": "PHP",
       "logo": "php.svg",
       "website": "https://php.net/",
       "displayInTopList": true
@@ -177,6 +177,12 @@
       "logo": "mysql.svg",
       "website": "https://www.mysql.com/",
       "displayInTopList": true
+    },
+    "centos": {
+      "name": "CentOS",
+      "logo": "centos.svg",
+      "website": "https://www.centos.org/",
+      "displayInTopList": false
     }
   },
   "skills": {
