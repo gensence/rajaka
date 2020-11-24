@@ -3,10 +3,10 @@ module.exports = {
   pathPrefix: '/',
   title: 'Rajaka.net',
   keywords:
-    'account surfer, trello bookmark, trello, productivity, javascript, Marat Dospolov, choosy windows, browser selector',
-  subtitle: 'Developer. Optimizer. Learner.',
+    'c#,c++,php,javascript,actionscript,技術,プログラミング,ブログ',
+  subtitle: 'プログラマーの備忘録',
   copyright: '© 2020 | Rajaka.net, Japan',
-  disqusShortname: 'Author',
+  disqusShortname: 'Rajaka',
   postsPerPage: 20,
   googleAnalyticsId: '',
   menu: [
@@ -22,7 +22,7 @@ module.exports = {
   author: {
     name: 'Rajaka.net',
     photo: '/photo.jpg',
-    bio: 'Developer. Optimizer. Learner.',
+    bio: 'プログラマーの備忘録',
     contacts: {
       github: '',
       twitter: 'pacificparam',
