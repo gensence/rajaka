@@ -1,22 +1,22 @@
 {
   "header": {
-    "name": "MARAT DOSPOLOV",
-    "position": "JAVASCRIPT TECH LEADER",
+    "name": "Rajaka",
+    "position": "SOFTWARE DEVELOPER",
     "img": {
       "src": "/photo.jpg",
-      "alt": "Marat Dospolov"
+      "alt": "rajaka"
     },
-    "location": "Ukraine, Kyiv",
+    "location": "Japan",
     "contacts": [
       {
-        "type": "telegram",
-        "link": "https://t.me/dospolov",
-        "linkName": "dospolov"
+        "type": "twitter",
+        "link": "https://twitter.com/pacificparam",
+        "linkName": "rajaka"
       },
       {
-        "type": "github",
-        "link": "https://github.com/dospolov",
-        "linkName": "dospolov"
+        "type": "",
+        "link": "",
+        "linkName": ""
       }
     ]
   },
@@ -169,7 +169,7 @@
     "hard": {
       "featured": ["Webpack", "ES6 / ES2017"],
       "other": [
-        "Adobe Photoshop",
+        "PHP",
         "Angular.js",
         "AWS",
         "Bootstrap",
@@ -433,5 +433,5 @@
       "text": "It was a pleasure working with Marat. He is a very talented passionate JavaScript developer, and a good friend. During that time I was impressed with his skill set and the way he could think through problems and find a solution for them. I would be happy to work with him again in the future."
     }
   ],
-  "footer": "Dospolov.com © 2020"
+  "footer": "Rajaka.net © 2020"
 }

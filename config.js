@@ -15,7 +15,7 @@ module.exports = {
       path: '/'
     },
     {
-      label: 'Personal project',
+      label: 'CV',
       path: '/cv'
     }
   ],

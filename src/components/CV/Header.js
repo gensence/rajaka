@@ -3,11 +3,11 @@ import { Row, Col } from 'antd'
 
 const Header = ({ header }) => (
   <Row type="flex" justify="space-around" align="middle">
-    <Col span={2} className="hide-mobile">
+    {/*<Col span={2} className="hide-mobile">
       <a href="/cv.pdf" target="_blank" className="no-print">
         <img src="/logos/pdf.svg" height="50" alt="pdf icon" />
       </a>
-    </Col>
+    </Col>*/}
     <Col span={8} className="text-right">
       <h2 className="text-2xl">{header.name}</h2>
       <h5>{header.position}</h5>
