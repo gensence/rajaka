@@ -21,16 +21,11 @@ module.exports = {
   ],
   author: {
     name: 'Rajaka.net',
-    photo: '/photo.jpg',
+    photo: '',
     bio: 'Developer. Optimizer. Learner.',
     contacts: {
-      github: 'dospolov',
-      twitter: 'marat_dospolov',
-      linkedin: 'dospolov',
-      telegram: 'dospolov',
-      instagram: 'dospolov',
-      facebook: 'dospolov',
-      email: '',
+      twitter: 'pacificparam',
+      email: 'info@rajaka.net',
       rss: '/rss.xml'
     }
   }
