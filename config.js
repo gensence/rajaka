@@ -1,10 +1,10 @@
 module.exports = {
-  url: 'https://gifted-mcclintock-4f3509.netlify.app',
+  url: 'https://rajaka.net',
   pathPrefix: '/',
   title: 'Rajaka.net',
   keywords:
-    'c#,c++,php,javascript,actionscript,技術,プログラミング,ブログ',
-  subtitle: 'プログラマーの備忘録',
+    'php,javascript,actionscript,技術,プログラミング,ブログ',
+  subtitle: 'プログラマーの雑記帳',
   copyright: '© 2020 | Rajaka.net, Japan',
   disqusShortname: 'Rajaka',
   postsPerPage: 20,
