@@ -1,12 +1,12 @@
 ---
 template: post
-title: 【javascript】sprintfを実装する
+title: 【JavaScript】sprintfを実装する
 slug: javascript-sprintf
 draft: false
 priority: 0
 date: 2019-02-04T15:21:20.120Z
-description: javascriptでsprintfを実装するサンプルコード
-category: javascript
+description: JavaScriptでsprintfを実装するサンプルコード
+category: JavaScript
 tags:
   - プログラミング
   - 実験
