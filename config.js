@@ -1,5 +1,5 @@
 module.exports = {
-  url: 'https://rajaka.net/',
+  url: 'https://gifted-mcclintock-4f3509.netlify.app',
   pathPrefix: '/',
   title: 'Rajaka.net',
   keywords:
