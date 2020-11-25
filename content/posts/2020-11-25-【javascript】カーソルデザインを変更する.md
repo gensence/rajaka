@@ -17,6 +17,12 @@ tags:
 
 イメージ（スキン）ファイルを変更することで、マウスカーソルの形状や色を変更することもできます。
 
+### イメージ
+
+![javascript](/media/javascript-custom-cursor.gif "javascript")
+
+### コード
+
 ```
 <!DOCTYPE html>
 <html lang="ja">
