@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { Layout, Tag, Divider } from 'antd'
-import Comments from './Comments'
+{/*import Comments from './Comments'*/}
 import Content from './Content'
 import Tags from './Tags'
 import getCategoryColor from '../../utils/get-category-color'
@@ -47,9 +47,9 @@ const Post = ({ post, allCategories }) => {
         <Divider type="vertical" />
       </div>
 
-      <div className="mt-10">
+      {/*<div className="mt-10">
         <Comments postSlug={slug} postTitle={post.frontmatter.title} />
-      </div>
+      </div>*/}
     </AntContent>
   )
 }
