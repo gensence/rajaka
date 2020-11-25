@@ -10,9 +10,7 @@ category: JavaScript
 tags:
   - プログラミング
 ---
-![javascript](/media/javascript.png "javascript")
-
-onmouseoverイベントで複数の画像を使用するときに発生する遅延を解消する方法の一つに全ての画像をプリロードする方法があります。
+onmouseoverイベントで複数の画像を使用するときに発生する遅延を解消するには全ての画像をプリロードする必要があります。
 
 imagepreload.jsは全ての画像をプリロードするためのスクリプトです。
 
