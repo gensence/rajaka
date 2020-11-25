@@ -8,7 +8,7 @@ date: 2019-04-10T16:37:25.425Z
 description: JavaScriptでsprintfを実装するサンプルコード
 category: JavaScript
 tags:
-  - JavaScript
+  - プログラミング
   - 実験
 ---
 このスクリプトは、マウスカーソルを十字に変更します。
