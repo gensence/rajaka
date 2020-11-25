@@ -1,12 +1,12 @@
 ---
 template: post
-title: 【Javascript】HTMLソースコードを選択できないようにする
+title: 【JavaScript】HTMLソースコードを選択できないようにする
 slug: javascript-unselectable-text
 draft: false
 priority: 0
 date: 2018-07-10T06:45:44.193Z
 description: 訪問者がHTMLページのテキストを選択できないようにする方法
-category: Javascript
+category: JavaScript
 tags:
   - プログラミング
 ---
