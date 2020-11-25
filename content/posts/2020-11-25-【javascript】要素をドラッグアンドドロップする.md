@@ -10,11 +10,7 @@ category: JavaScript
 tags:
   - プログラミング
 ---
-![javascript](/media/display_js.png "javascript")
-
-drag.jsはWebページ上の要素や画像をドラッグするためのドラッグハンドラです。
-
-このドラッグハンドラは、relative要素やabsolute要素にアタッチすることができます。
+drag.jsはWebページ上の要素や画像をドラッグするためのスクリプトです。
 
 ### 使い方
 
