@@ -10,8 +10,6 @@ category: JavaScript
 tags:
   - プログラミング
 ---
-![javascript](/media/javascript.png "javascript")
-
 htmlのテキストをWebサイトの訪問者が選択できないようにするには？
 
 以下を使用してみてください。
