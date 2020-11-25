@@ -5,16 +5,20 @@ slug: javascript-image-preload
 draft: false
 priority: 0
 date: 2018-06-06T12:42:14.355Z
-description: onmouseoverイベントで複数の画像を使用するときに発生する遅延を取り除く方法
+description: onmouseoverイベントで複数の画像を使用するときに発生する遅延を解消する方法
 category: Javascript
 tags:
   - プログラミング
 ---
-onmouseoverイベントで複数の画像を使用するときに発生する遅延を取り除くにはすべての画像をプリロードします。
+![javascript](/media/javascript.png "javascript")
+
+onmouseoverイベントで複数の画像を使用するときに発生する遅延を解消するには全ての画像をプリロードする方法があります。
 
 この関数の引数として1つの画像URL又は、画像URLの配列を指定することもできます。
 
 <!--StartFragment-->
+
+##### Source code for imagepreload.js
 
 ```
 function ImagePreload() {
