@@ -10,13 +10,11 @@ category: JavaScript
 tags:
   - プログラミング
 ---
-htmlのテキストをWebサイトの訪問者が選択できないようにするには？
-
-以下を使用してみてください。
+Webサイトの訪問者がhtmlのテキストを選択できないようにするにはjavascriptで制御する方法があります。
 
 <!--StartFragment-->
 
-##### Source code for unselectable.js
+### unselectable.js  コード
 
 ```
 var Unselectable = {
