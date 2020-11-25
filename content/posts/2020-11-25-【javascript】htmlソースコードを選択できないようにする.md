@@ -12,9 +12,13 @@ tags:
 ---
 ![javascript](/media/javascript.png "javascript")
 
-Webサイトの訪問者にHTMLページのテキストを選択させないようにするために必要なコードは下記のとおりです。
+htmlのテキストをWebサイトの訪問者が選択できないようにするには？
+
+以下を使用してみてください。
 
 <!--StartFragment-->
+
+##### Source code for unselectable.js
 
 ```
 var Unselectable = {
