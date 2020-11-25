@@ -28,16 +28,16 @@
       "locationIcon": "",
       "description": "SEOツール集",
       "builtWith": ["php", "jquery", "bootstrap", "apache", "mysql", "centos"],
-      "link": "",
-      "sourceCode": "https://seolig.com/"
+      "link": "https://seolig.com/",
+      "sourceCode": ""
     },
     {
       "name": "Cointicker",
       "locationIcon": "",
       "description": "仮想通貨リアルタイム価格リスト",
       "builtWith": ["codeigniter", "php", "nodejs", "jquery", "socketio", "bootstrap", "apache", "mysql", "centos"],
-      "link": "",
-      "sourceCode": "https://cointicker.org/"
+      "link": "https://cointicker.org/",
+      "sourceCode": ""
     },
     {
       "name": "VbaFin",
@@ -51,16 +51,16 @@
       "locationIcon": "globe.svg",
       "description": "毎日のAlexaトラフィックランキング情報を掲載",
       "builtWith": ["php", "jquery", "apache", "mysql", "centos"],
-      "link": "",
-      "sourceCode": "https://dailyalexa.info/"
+      "link": "https://dailyalexa.info/",
+      "sourceCode": ""
     },
     {
       "name": "Qrcode",
       "locationIcon": "globe.svg",
       "description": "QRコードデザイン生成ツール",
       "builtWith": ["php", "jquery", "bootstrap", "apache", "centos"],
-      "link": "",
-      "sourceCode": "https://qrcode.casa/"
+      "link": "https://qrcode.casa/",
+      "sourceCode": ""
     }
   ],
   "pitchLine": "Likes",
