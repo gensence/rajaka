@@ -19,7 +19,7 @@
     {
       "name": "SpotSend",
       "locationIcon": "globe.svg",
-      "description": "大容量ファイル転送サービス",
+      "description": "オンラインファイル転送サービス",
       "builtWith": ["php", "jquery", "apache", "centos"],
       "link": "https://spotsend.com/"
     },

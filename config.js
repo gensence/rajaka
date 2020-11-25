@@ -1,5 +1,5 @@
 module.exports = {
-  url: 'https://rajaka.net',
+  url: 'https://rajaka.net/',
   pathPrefix: '/',
   title: 'Rajaka.net',
   keywords:

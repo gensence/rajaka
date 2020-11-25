@@ -1,14 +1,14 @@
 [
   {
-    "name": "Account Surfer",
-    "logo": "/logos/as.svg",
-    "description": "Quickly switch between accounts and browsers.",
-    "link": "/posts/handle-chrome-profiles-with-account-surfer"
+    "name": "SpotSend",
+    "logo": "/logos/spotsend.svg",
+    "description": "オンラインファイル転送サービス",
+    "link": "https://spotsend.com/"
   },
   {
-    "name": "Trello Bookmark",
-    "logo": "/logos/trello-bookmark.svg",
-    "description": "Store your bookmarks as Trello Cards.",
-    "link": "/posts/trello-plus-gtd-equals-trello-bookmark"
+    "name": "SeoLig",
+    "logo": "/logos/seolig.svg",
+    "description": "SEOツール集",
+    "link": "https://seolig.com/"
   }
 ]
