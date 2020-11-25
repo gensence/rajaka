@@ -8,11 +8,11 @@ date: 2018-06-06T12:42:14.355Z
 description: onmouseoverイベントで複数の画像を使用するときに発生する遅延を取り除く方法
 category: Javascript
 tags:
-  - Javascript
+  - プログラミング
 ---
 onmouseoverイベントで複数の画像を使用するときに発生する遅延を取り除くにはすべての画像をプリロードします。
 
-この関数の引数として1つの画像URLを指定することも、画像URLの配列を指定することもできます。
+この関数の引数として1つの画像URL又は、画像URLの配列を指定することもできます。
 
 <!--StartFragment-->
 
