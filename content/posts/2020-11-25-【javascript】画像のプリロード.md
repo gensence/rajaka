@@ -1,12 +1,12 @@
 ---
 template: post
-title: 【Javascript】画像のプリロード
+title: 【JavaScript】画像のプリロード
 slug: javascript-image-preload
 draft: false
 priority: 0
 date: 2018-06-06T12:42:14.355Z
 description: onmouseoverイベントで複数の画像を使用するときに発生する遅延を解消する方法
-category: Javascript
+category: JavaScript
 tags:
   - プログラミング
 ---
