@@ -5,7 +5,7 @@ import { Layout as AntLayout } from 'antd'
 const Layout = ({ children, title, description, keywords, article }) => (
   <AntLayout className="bg-transparent min-h-screen">
     <Helmet>
-      <html lang="en" prefix="og: http://ogp.me/ns#" />
+      <html lang="ja" prefix="og: http://ogp.me/ns#" />
       <title>{title}</title>
       <meta charset="UTF-8" />
       <meta name="keywords" content={keywords} />
