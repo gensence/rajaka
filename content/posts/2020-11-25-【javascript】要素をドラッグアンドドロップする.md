@@ -1,12 +1,12 @@
 ---
 template: post
-title: 【Javascript】要素をドラッグアンドドロップする
+title: 【JavaScript】要素をドラッグアンドドロップする
 slug: javascript-drag-and-drop
 draft: false
 priority: 0
 date: 2018-07-27T06:55:47.961Z
 description: Webページ上の要素や画像をドラッグする方法
-category: Javascript
+category: JavaScript
 tags:
   - プログラミング
 ---
@@ -20,7 +20,7 @@ tags:
 
 ### 使い方
 
-1. まず、コードの先頭にこのスクリプトを含めます。※<head>タグの中に記述してください。
+1. まず、コードの先頭にこのスクリプトを含めます。※headタグの中に記述してください。
 2. スクリプトをロードしたら、ドラッグハンドラをアタッチするコードを書いてください。
 
 このドラッグハンドラをページ上の任意の数の要素にアタッチすることで、すべての要素をドラッグすることができます。
