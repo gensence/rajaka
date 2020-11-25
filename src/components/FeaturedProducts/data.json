@@ -1,13 +1,13 @@
 [
   {
     "name": "SpotSend",
-    "logo": "/logos/spotsend.svg",
+    "logo": "/logos/spotsend.png",
     "description": "オンラインファイル転送サービス",
     "link": "https://spotsend.com/"
   },
   {
     "name": "SeoLig",
-    "logo": "/logos/seolig.svg",
+    "logo": "/logos/seolig.png",
     "description": "SEOツール集",
     "link": "https://seolig.com/"
   }
