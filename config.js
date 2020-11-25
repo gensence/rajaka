@@ -22,7 +22,7 @@ module.exports = {
   author: {
     name: 'Rajaka.net',
     photo: '/photo.jpg',
-    bio: 'プログラマーの備忘録',
+    bio: 'プログラマーの雑記帳',
     contacts: {
       github: '',
       twitter: 'pacificparam',
