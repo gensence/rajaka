@@ -17,9 +17,15 @@ tags:
 
 イメージ（スキン）ファイルを変更することで、マウスカーソルの形状や色を変更することもできます。
 
-### イメージ
+<!--StartFragment-->
+
+### 動作サンプル
 
 ![javascript](/media/javascript-custom-cursor.gif "javascript")
+
+<!--EndFragment-->
+
+<!--StartFragment-->
 
 ### コード
 
@@ -246,3 +252,5 @@ skinableCursor.init();
 </body>
 </html>
 ```
+
+<!--EndFragment-->
