@@ -10,7 +10,7 @@ category: Javascript
 tags:
   - プログラミング
 ---
-![javascript]( "javascript")
+![javascript](/media/javascript.png "javascript")
 
 onmouseoverイベントで複数の画像を使用するときに発生する遅延を取り除くにはすべての画像をプリロードします。
 
