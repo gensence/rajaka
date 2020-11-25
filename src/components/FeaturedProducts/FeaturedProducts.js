@@ -30,7 +30,7 @@ const FeaturedProducts = () => {
                 <p className="mb-0">
                   {product.description}{' '}
                   <a href={product.link} className="block text-white">
-                    ...
+                    使ってみる...
                   </a>
                 </p>
               </Col>
