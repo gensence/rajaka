@@ -10,6 +10,8 @@ category: Javascript
 tags:
   - プログラミング
 ---
+![javascript](/media/javascript.png "javascript")
+
 Webサイトの訪問者にHTMLページのテキストを選択させないようにするために必要なコードは下記のとおりです。
 
 <!--StartFragment-->
