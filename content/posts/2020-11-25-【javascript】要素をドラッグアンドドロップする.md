@@ -21,7 +21,7 @@ drag.jsはWebページ上の要素や画像をドラッグするためのスク�
 
 <!--StartFragment-->
 
-##### Source code for drag.js
+### drag.js  コード
 
 ```
 var DragHandler = {
