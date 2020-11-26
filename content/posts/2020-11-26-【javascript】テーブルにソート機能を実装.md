@@ -10,12 +10,12 @@ category: JavaScript
 tags:
   - プログラミング
 ---
-sortabletable.jsは、通常のHTML内のテーブルをソート可能なテーブルに変換します。
+sorttable.jsは、通常のHTML内のテーブルをソート可能なテーブルに変換します。
 
 ### 使い方
 
 1. ヘッダー（ソート）行をtheadセクションに、テーブル行をtbodyセクションに配置してください。
-2. sortabletable.jsファイルをインクルードして、各テーブルの後でSortableTableオブジェクトを生成してください。
+2. sorttable.jsファイルをインクルードして、各テーブルの後でSortTableオブジェクトを生成してください。
 
 <!--StartFragment-->
 
