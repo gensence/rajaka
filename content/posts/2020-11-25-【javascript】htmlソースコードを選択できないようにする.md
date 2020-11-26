@@ -1,27 +1,23 @@
 ---
 template: post
-title: 【Javascript】HTMLソースコードを選択できないようにする
-slug: javascript-unselectable-text
+title: 【JavaScript】HTMLソースコードを選択できないようにする
+slug: javascript-unselect-text
 draft: false
 priority: 0
 date: 2018-07-10T06:45:44.193Z
 description: 訪問者がHTMLページのテキストを選択できないようにする方法
-category: Javascript
+category: JavaScript
 tags:
   - プログラミング
 ---
-![javascript](/media/javascript.png "javascript")
-
-htmlのテキストをWebサイトの訪問者が選択できないようにするには？
-
-以下を使用してみてください。
+Webサイトの訪問者がhtmlのテキストを選択できないようにするにはjavascriptで制御する方法があります。
 
 <!--StartFragment-->
 
-##### Source code for unselectable.js
+### unselect.js  コード
 
 ```
-var Unselectable = {
+var Unselect = {
  
 	enable : function(e) {
 		var e = e ? e : window.event;
