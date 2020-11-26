@@ -35,7 +35,7 @@ sortabletable.jsは、通常のHTML内のテーブルをソート可能なテー
 <head>
 	<meta charset="utf-8">
 	<title>テーブルソート</title>
-	<script type="text/javascript" src="sortabletable.js"></script>
+	<script type="text/javascript" src="sorttable.js"></script>
 	<style>
 table {
 	border-spacing: 1;
@@ -99,7 +99,7 @@ td, th {
 		</tbody>
 	</table>
 	<script type="text/javascript">
-var t = new SortableTable(document.getElementById('table'), 100);
+var t = new SortTable(document.getElementById('table'), 100);
 	</script>
 </body>
 </html>
@@ -109,10 +109,10 @@ var t = new SortableTable(document.getElementById('table'), 100);
 
 <!--StartFragment-->
 
-### sortabletable.js  コード
+### sorttable.js  コード
 
 ```
-function SortableTable (tableEl) {
+function SortTable (tableEl) {
 
 	this.tbody = tableEl.getElementsByTagName('tbody');
 	this.thead = tableEl.getElementsByTagName('thead');
