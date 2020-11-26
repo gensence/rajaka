@@ -11,7 +11,7 @@ tags:
   - JavaScript
   - 実験
 ---
-sortabletable.jsは、通常のHTML内のテーブルをソート可能なものに変換するために使用することができます。
+sortabletable.jsは、通常のHTML内のテーブルをソート可能なテーブルに変換します。
 
 ### 使い方
 
