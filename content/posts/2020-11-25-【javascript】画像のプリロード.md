@@ -12,16 +12,17 @@ tags:
 ---
 onmouseoverイベントで複数の画像を使用するときに発生する遅延を解消するには全ての画像をプリロードする必要があります。
 
-imagepreload.jsは全ての画像をプリロードするためのスクリプトです。
+preload.jsは全ての画像をプリロードするためのスクリプトです。
 
 必要に応じて関数の引数として1つの画像URL又は、画像URLの配列を指定してください。
 
 <!--StartFragment-->
 
-### imagepreload.js  コード
+### preload.js  コード
 
 ```
-function ImagePreload() {
+function Preload() {
+
 	if (typeof(arguments) != 'undefined') {
 		for (i=0; i<arguments.length; i++ ) {
 			if (typeof(arguments[i]) == "object") {
