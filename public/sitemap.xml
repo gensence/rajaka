@@ -1,39 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/cv</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/pages/as-privacy-policy</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/posts/trello-plus-gtd-equals-trello-bookmark</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/posts/crlf-to-lf</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/posts/add-friends-fb</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/posts/handle-chrome-profiles-with-account-surfer</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/posts/account-surfer-gets-microsoft-award</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/posts/block-youtube-suggested-videos-overlay</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/posts/twitter-videos-with-sound</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/posts/fix-chrome-scroll-flickering</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/posts/chrome-custom-js-and-css-extension</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/posts/petition-ban-anti-vaccination-propaganda</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/posts/reverse-interview</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/account-surfer</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/chrome</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/facebook</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/git</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/gtd</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/health</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/interview</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/petition</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/plugin</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/trello</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/twitter</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/utilities</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/vscode</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/windows</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/tag/youtube</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/category/automation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/category/healthcare</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/category/productivity</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/category/programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gifted-mcclintock-4f3509.netlify.app/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://rajaka.net/</loc>
+  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/cv/</loc>
+  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/category/javascript/</loc>
+  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/category/jquery/</loc>
+  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/javascript-drag-and-drop/</loc>
+  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/javascript-context-menu/</loc>
+  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/javascript-sortable-table/</loc>
+  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/javascript-custom-cursor/</loc>
+  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/jquery-menu/</loc>
+  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/javascript-unselectable-text/</loc>
+  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/javascript-image-preload/</loc>
+  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/javascript-cookie/</loc>
+  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/javascript-sprintf/</loc>
+  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>

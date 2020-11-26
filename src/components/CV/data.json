@@ -1,17 +1,17 @@
 {
   "header": {
-    "name": "Raja",
+    "name": "raj",
     "position": "SOFTWARE DEVELOPER",
     "img": {
       "src": "/photo.jpg",
-      "alt": "rajaka"
+      "alt": "raj"
     },
     "location": "Japan",
     "contacts": [
       {
         "type": "twitter",
         "link": "https://twitter.com/pacificparam",
-        "linkName": "Raja"
+        "linkName": "raj"
       }
     ]
   },

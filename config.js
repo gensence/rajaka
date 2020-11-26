@@ -3,10 +3,10 @@ module.exports = {
   pathPrefix: '/',
   title: 'Rajaka.net',
   keywords:
-    'php,javascript,actionscript,技術,プログラミング,ブログ',
+    'php,javascript,プログラミング,コーディング,ブログ,サンプル',
   subtitle: 'プログラマーの雑記帳',
-  copyright: '© 2020 | Rajaka.net, Japan',
-  disqusShortname: 'Rajaka',
+  copyright: '© 2020 | Rajaka.net',
+  disqusShortname: 'raj',
   postsPerPage: 20,
   googleAnalyticsId: '',
   menu: [
