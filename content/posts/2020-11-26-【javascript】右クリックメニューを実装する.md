@@ -91,7 +91,7 @@ div.container {
 
 <!--StartFragment-->
 
-### contectmenu.js  コード
+### contextmenu.js  コード
 
 ```
 var SimpleContextMenu = {
