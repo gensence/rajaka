@@ -4,7 +4,7 @@ title: 【JavaScript】sprintfを実装する
 slug: javascript-sprintf
 draft: false
 priority: 0
-date: 2019-02-04T15:21:20.120Z
+date: 2017-11-15T15:21:20.120Z
 description: JavaScriptでsprintfを実装するサンプルコード
 category: JavaScript
 tags:
