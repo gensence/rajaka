@@ -1,11 +1,11 @@
 ---
 template: post
-title: 【JavaScript】テーブルにソート機能を実装
+title: 【JavaScript】テーブルにソート機能を追加する
 slug: javascript-sortable-table
 draft: false
 priority: 0
 date: 2019-10-16T04:44:36.031Z
-description: JavaScriptでテーブルにソート機能を作成するサンプル
+description: JavaScriptでテーブルにソート機能を実装するサンプル
 category: JavaScript
 tags:
   - JavaScript
