@@ -29,14 +29,6 @@ drag.jsはWebページ上の要素や画像をドラッグするためのスク�
 
 <!--StartFragment-->
 
-### pin.png
-
-![pin](/media/pin.png "pin")
-
-<!--EndFragment-->
-
-<!--StartFragment-->
-
 ### index.html  コード
 
 ```
@@ -140,5 +132,13 @@ var DragHandler = {
 
 }
 ```
+
+<!--EndFragment-->
+
+<!--StartFragment-->
+
+### pin.png
+
+![pin](/media/pin.png "pin")
 
 <!--EndFragment-->
