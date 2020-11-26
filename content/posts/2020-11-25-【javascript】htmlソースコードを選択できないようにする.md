@@ -1,7 +1,7 @@
 ---
 template: post
 title: 【JavaScript】HTMLソースコードを選択できないようにする
-slug: javascript-unselectable-text
+slug: javascript-unselect-text
 draft: false
 priority: 0
 date: 2018-07-10T06:45:44.193Z
@@ -14,10 +14,10 @@ Webサイトの訪問者がhtmlのテキストを選択できないようにす�
 
 <!--StartFragment-->
 
-### unselectable.js  コード
+### unselect.js  コード
 
 ```
-var Unselectable = {
+var Unselect = {
  
 	enable : function(e) {
 		var e = e ? e : window.event;
