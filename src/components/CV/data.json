@@ -17,7 +17,7 @@
   },
   "experiments": [
     {
-      "name": "www.WebfileMan.com",
+      "name": "WebfileMan.com",
       "locationIcon": "japan.png",
       "description": "オンラインファイル転送サービス",
       "builtWith": ["symfony", "php", "jquery", "apache", "centos"],
