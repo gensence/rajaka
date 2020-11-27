@@ -1,11 +1,11 @@
 ---
 template: post
-title: 【JavaScript】要素をドラッグアンドドロップする
+title: 【JavaScript】要素ドラッグ＆ドロップ
 slug: javascript-drag-and-drop
 draft: false
 priority: 0
 date: 2020-09-15T06:55:47.961Z
-description: Webページ上の要素や画像をドラッグする方法
+description: Webページ上の要素や画像をドラッグアンドドロップする方法
 category: JavaScript
 tags:
   - プログラミング
@@ -56,7 +56,7 @@ DragHandler.attach(pin);
 ### drag.js  コード
 
 ```
-var DragHandler = {
+const DragHandler = {
 
     // privateプロパティ。
     _oElem : null,
@@ -78,13 +78,13 @@ var DragHandler = {
 
     // privateメソッド。ドラッグ処理を開始します。
     _dragBegin : function(e) {
-        var oElem = DragHandler._oElem = this;
+        const oElem = DragHandler._oElem = this;
 
         if (isNaN(parseInt(oElem.style.left))) { oElem.style.left = '0px'; }
         if (isNaN(parseInt(oElem.style.top))) { oElem.style.top = '0px'; }
 
-        var x = parseInt(oElem.style.left);
-        var y = parseInt(oElem.style.top);
+        const x = parseInt(oElem.style.left);
+        const y = parseInt(oElem.style.top);
 
         e = e ? e : window.event;
         oElem.mouseX = e.clientX;
@@ -99,10 +99,10 @@ var DragHandler = {
 
     // privateメソッド。要素をドラッグ（移動）します。
     _drag : function(e) {
-        var oElem = DragHandler._oElem;
+        const oElem = DragHandler._oElem;
 
-        var x = parseInt(oElem.style.left);
-        var y = parseInt(oElem.style.top);
+        const x = parseInt(oElem.style.left);
+        const y = parseInt(oElem.style.top);
 
         e = e ? e : window.event;
         oElem.style.left = x + (e.clientX - oElem.mouseX) + 'px';
@@ -118,10 +118,10 @@ var DragHandler = {
 
     // privateメソッド。ドラッグ処理を停止します。
     _dragEnd : function() {
-        var oElem = DragHandler._oElem;
+        const oElem = DragHandler._oElem;
 
-        var x = parseInt(oElem.style.left);
-        var y = parseInt(oElem.style.top);
+        const x = parseInt(oElem.style.left);
+        const y = parseInt(oElem.style.top);
 
         oElem.dragEnd(oElem, x, y);
 

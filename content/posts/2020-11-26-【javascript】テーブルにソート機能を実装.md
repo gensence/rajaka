@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【JavaScript】テーブルにソート機能を追加する
+title: 【JavaScript】テーブルソート
 slug: javascript-sortable-table
 draft: false
 priority: 0
@@ -99,7 +99,7 @@ td, th {
 		</tbody>
 	</table>
 	<script type="text/javascript">
-var t = new SortTable(document.getElementById('table'), 100);
+const t = new SortTable(document.getElementById('table'), 100);
 	</script>
 </body>
 </html>
@@ -133,16 +133,16 @@ function SortTable (tableEl) {
 
 	this.sort = function (cell) {
 
-	    var column = cell.cellIndex;
-	    var itm = this.getInnerText(this.tbody[0].rows[1].cells[column]);
-		var sortfn = this.sortCaseInsensitive;
+	    const column = cell.cellIndex;
+	    const itm = this.getInnerText(this.tbody[0].rows[1].cells[column]);
+		let sortfn = this.sortCaseInsensitive;
 
 		if (itm.match(/\d\d\d\d+\d\d[-]+\d\d[-]/)) sortfn = this.sortDate; // date format yyyy-mm-dd
 		if (itm.replace(/^\s+|\s+$/g,"").match(/^[\d\.]+$/)) sortfn = this.sortNumeric;
 
 		this.sortColumnIndex = column;
 
-	    var newRows = new Array();
+	    const newRows = new Array();
 	    for (j = 0; j < this.tbody[0].rows.length; j++) {
 			newRows[j] = this.tbody[0].rows[j];
 		}
@@ -189,8 +189,8 @@ function SortTable (tableEl) {
 	}
 
 	// 変数を定義する。
-	var thisObject = this;
-	var sortSection = this.thead;
+	const thisObject = this;
+	const sortSection = this.thead;
 
 	// コンストラクタアクション。
 	if (!(this.tbody && this.tbody[0].rows && this.tbody[0].rows.length > 0)) return;
@@ -201,7 +201,7 @@ function SortTable (tableEl) {
 		return;
 	}
 
-	for (var i=0; i<sortRow.cells.length; i++) {
+	for (let i=0; i<sortRow.cells.length; i++) {
 		sortRow.cells[i].sTable = this;
 		sortRow.cells[i].onclick = function () {
 			this.sTable.sort(this);

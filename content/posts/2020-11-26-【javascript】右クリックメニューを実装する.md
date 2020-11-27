@@ -1,11 +1,11 @@
 ---
 template: post
-title: 【JavaScript】右クリックメニューを実装する
+title: 【JavaScript】コンテキストメニュー
 slug: javascript-context-menu
 draft: false
 priority: 0
 date: 2020-01-08T06:12:53.205Z
-description: JavaScriptでコンテキストメニューを表示するサンプル
+description: JavaScriptで右クリックで表示するメニューを実装するサンプル
 category: JavaScript
 tags:
   - プログラミング
@@ -32,8 +32,8 @@ contextmenu.jsは固有項目のコンテキストメニューを表示するサ
 	<title>コンテキストメニュー</title>
 	<script type="text/javascript" src="contextmenu.js"></script>
 	<script type="text/javascript">
-		SimpleContextMenu.setup({'preventDefault':true, 'preventForms':false});
-		SimpleContextMenu.attach('container', 'CM1');
+		ContextMenu.setup({'preventDefault':true, 'preventForms':false});
+		ContextMenu.attach('container', 'CM');
 	</script>
 	<style type="text/css">
 ul.SimpleContextMenu {
@@ -75,7 +75,7 @@ div.container {
 	</style>
 </head>
 <body>
-	<ul id="CM1" class="SimpleContextMenu">
+	<ul id="CM" class="SimpleContextMenu">
 		<li><a href="#">複製</a></li>
 		<li><a href="#">修正</a></li>
 		<li><a href="#">削除</a></li>
@@ -94,7 +94,7 @@ div.container {
 ### contextmenu.js  コード
 
 ```
-var SimpleContextMenu = {
+const ContextMenu = {
 
 	// private属性。
 	_menus : new Array,
@@ -107,28 +107,28 @@ var SimpleContextMenu = {
 	setup : function (conf) {
 
 		if ( document.all && document.getElementById && !window.opera ) {
-			SimpleContextMenu.IE = true;
+			ContextMenu.IE = true;
 		}
 
 		if ( !document.all && document.getElementById && !window.opera ) {
-			SimpleContextMenu.FF = true;
+			ContextMenu.FF = true;
 		}
 
 		if ( document.all && document.getElementById && window.opera ) {
-			SimpleContextMenu.OP = true;
+			ContextMenu.OP = true;
 		}
 
-		if ( SimpleContextMenu.IE || SimpleContextMenu.FF ) {
+		if ( ContextMenu.IE || ContextMenu.FF ) {
 
-			document.oncontextmenu = SimpleContextMenu._show;
-			document.onclick = SimpleContextMenu._hide;
+			document.oncontextmenu = ContextMenu._show;
+			document.onclick = ContextMenu._hide;
 
 			if (conf && typeof(conf.preventDefault) != "undefined") {
-				SimpleContextMenu._preventDefault = conf.preventDefault;
+				ContextMenu._preventDefault = conf.preventDefault;
 			}
 
 			if (conf && typeof(conf.preventForms) != "undefined") {
-				SimpleContextMenu._preventForms = conf.preventForms;
+				ContextMenu._preventForms = conf.preventForms;
 			}
 
 		}
@@ -139,12 +139,12 @@ var SimpleContextMenu = {
 	attach : function (classNames, menuId) {
 
 		if (typeof(classNames) == "string") {
-			SimpleContextMenu._menus[classNames] = menuId;
+			ContextMenu._menus[classNames] = menuId;
 		}
 
 		if (typeof(classNames) == "object") {
 			for (x = 0; x < classNames.length; x++) {
-				SimpleContextMenu._menus[classNames[x]] = menuId;
+				ContextMenu._menus[classNames[x]] = menuId;
 			}
 		}
 
@@ -153,30 +153,30 @@ var SimpleContextMenu = {
 	// privateメソッド。表示するコンテキストメニューを取得します。
 	_getMenuElementId : function (e) {
 
-		if (SimpleContextMenu.IE) {
-			SimpleContextMenu._attachedElement = event.srcElement;
+		if (ContextMenu.IE) {
+			ContextMenu._attachedElement = event.srcElement;
 		} else {
-			SimpleContextMenu._attachedElement = e.target;
+			ContextMenu._attachedElement = e.target;
 		}
 
-		while(SimpleContextMenu._attachedElement != null) {
-			var className = SimpleContextMenu._attachedElement.className;
+		while(ContextMenu._attachedElement != null) {
+			let className = ContextMenu._attachedElement.className;
 
 			if (typeof(className) != "undefined") {
 				className = className.replace(/^\s+/g, "").replace(/\s+$/g, "")
-				var classArray = className.split(/[ ]+/g);
+				const classArray = className.split(/[ ]+/g);
 
 				for (i = 0; i < classArray.length; i++) {
-					if (SimpleContextMenu._menus[classArray[i]]) {
-						return SimpleContextMenu._menus[classArray[i]];
+					if (ContextMenu._menus[classArray[i]]) {
+						return ContextMenu._menus[classArray[i]];
 					}
 				}
 			}
 
-			if (SimpleContextMenu.IE) {
-				SimpleContextMenu._attachedElement = SimpleContextMenu._attachedElement.parentElement;
+			if (ContextMenu.IE) {
+				ContextMenu._attachedElement = ContextMenu._attachedElement.parentElement;
 			} else {
-				SimpleContextMenu._attachedElement = SimpleContextMenu._attachedElement.parentNode;
+				ContextMenu._attachedElement = ContextMenu._attachedElement.parentNode;
 			}
 		}
 
@@ -187,16 +187,16 @@ var SimpleContextMenu = {
 	// privateメソッド。コンテキストメニューを表示します。
 	_show : function (e) {
 
-		SimpleContextMenu._hide();
-		var menuElementId = SimpleContextMenu._getMenuElementId(e);
+		ContextMenu._hide();
+		const menuElementId = ContextMenu._getMenuElementId(e);
 
-		var m = SimpleContextMenu._getMousePosition(e);
-		var s = SimpleContextMenu._getScrollPosition(e);
+		const m = ContextMenu._getMousePosition(e);
+		const s = ContextMenu._getScrollPosition(e);
 
-		SimpleContextMenu._menuElement = document.getElementById(menuElementId);
-		SimpleContextMenu._menuElement.style.left = m.x + s.x + 'px';
-		SimpleContextMenu._menuElement.style.top = m.y + s.y + 'px';
-		SimpleContextMenu._menuElement.style.display = 'block';
+		ContextMenu._menuElement = document.getElementById(menuElementId);
+		ContextMenu._menuElement.style.left = m.x + s.x + 'px';
+		ContextMenu._menuElement.style.top = m.y + s.y + 'px';
+		ContextMenu._menuElement.style.display = 'block';
 		return false;
 
 	},
@@ -204,8 +204,8 @@ var SimpleContextMenu = {
 	// privateメソッド。コンテキストメニューを非表示にします。
 	_hide : function () {
 
-		if (SimpleContextMenu._menuElement) {
-			SimpleContextMenu._menuElement.style.display = 'none';
+		if (ContextMenu._menuElement) {
+			ContextMenu._menuElement.style.display = 'none';
 		}
 
 	},
@@ -214,7 +214,7 @@ var SimpleContextMenu = {
 	_getMousePosition : function (e) {
 
 		e = e ? e : window.event;
-		var position = {
+		const position = {
 			'x' : e.clientX,
 			'y' : e.clientY
 		}
@@ -226,8 +226,8 @@ var SimpleContextMenu = {
 	// privateメソッド。ドキュメントのスクロール位置を取得します。
 	_getScrollPosition : function () {
 
-		var x = 0;
-		var y = 0;
+		let x = 0;
+		let y = 0;
 
 		if( typeof( window.pageYOffset ) == 'number' ) {
 			x = window.pageXOffset;
@@ -240,7 +240,7 @@ var SimpleContextMenu = {
 			y = document.body.scrollTop;
 		}
 
-		var position = {
+		const position = {
 			'x' : x,
 			'y' : y
 		}
