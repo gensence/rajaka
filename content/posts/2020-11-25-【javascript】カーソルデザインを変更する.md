@@ -36,7 +36,7 @@ tags:
     <meta charset="utf-8">
     <title>プロジェクト</title>
     <script type="text/javascript">
-var skinableCursor = {
+const skinableCursor = {
 	// publicプロパティ。カーソルデザインを変更する場合はここで変更します。
 	skinPath : 'skin.gif',
 
@@ -67,7 +67,7 @@ var skinableCursor = {
 			document.write("<scr" + "ipt id=__ieinit defer=true " +
 				"src=//:><\/script>");
 
-			var script = document.getElementById("__ieinit");
+			const script = document.getElementById("__ieinit");
 			script.onreadystatechange = function() {
 				if ( this.readyState != "complete" ) return;
 				this.parentNode.removeChild( this );
@@ -84,21 +84,21 @@ var skinableCursor = {
 		skinableCursor.create();
 
 		if ( skinableCursor.FF || skinableCursor.OP ) {
-			var s = document.createElement('style');
+			const s = document.createElement('style');
 			s.innerHTML = '* { cursor: inherit; } html { height: 100%; } body, html { cursor: crosshair; }';
 			document.body.appendChild(s);
 			document.addEventListener('mousemove', skinableCursor.move, false);
 		}
 
 		if ( skinableCursor.IE ) {
-			var s = document.createStyleSheet()
+			const s = document.createStyleSheet()
 			s.addRule("*", "cursor: inherit");
 			s.addRule("body", "cursor: crosshair");
 			s.addRule("html", "cursor: crosshair");
 			document.attachEvent('onmousemove', skinableCursor.move);
 		}
 
-		var anchors = document.getElementsByTagName('a');
+		const anchors = document.getElementsByTagName('a');
 		for (x = 0; x < anchors.length; x++) {
 			if ( skinableCursor.FF || skinableCursor.OP ) {
 				anchors[x].addEventListener('mousemove', skinableCursor.events.anchor, false);
@@ -132,7 +132,7 @@ var skinableCursor = {
 			return el;
 		}
 
-		var c = skinableCursor.cursor;
+		const c = skinableCursor.cursor;
 		c.lt.el = create(document.createElement('div'), c.lt);
 		c.rt.el = create(document.createElement('div'), c.rt);
 		c.rb.el = create(document.createElement('div'), c.rb);
@@ -155,20 +155,20 @@ var skinableCursor = {
 		}
 
 		function hide(el, x, y) {
-			var w = document.documentElement.clientWidth;
-			var h = document.documentElement.clientHeight;
-			var deltaX = w - (x + el.dx + parseInt(el.w) - skinableCursor.cursor.browserDelta);
-			var deltaY = h - (y + el.dy + parseInt(el.h) - skinableCursor.cursor.browserDelta);
+			const w = document.documentElement.clientWidth;
+			const h = document.documentElement.clientHeight;
+			const deltaX = w - (x + el.dx + parseInt(el.w) - skinableCursor.cursor.browserDelta);
+			const deltaY = h - (y + el.dy + parseInt(el.h) - skinableCursor.cursor.browserDelta);
 			if (!skinableCursor.noSkin) {
 				el.el.style.display = deltaX > 0 ? (deltaY > 0 ? 'block' : 'none') : 'none';
 			}
 		}
 
-		var p = skinableCursor.getMousePosition(e);
-		var s = skinableCursor.getScrollPosition();
-		var c = skinableCursor.cursor;
-		var x = p.x + s.x - c.browserDelta;
-		var y = p.y + s.y - c.browserDelta;
+		const p = skinableCursor.getMousePosition(e);
+		const s = skinableCursor.getScrollPosition();
+		const c = skinableCursor.cursor;
+		const x = p.x + s.x - c.browserDelta;
+		const y = p.y + s.y - c.browserDelta;
 
 		hide(c.lt, p.x, p.y);
 		hide(c.rt, p.x, p.y);
@@ -186,7 +186,7 @@ var skinableCursor = {
 	getMousePosition : function (e) {
 
 		e = e ? e : window.event;
-		var position = {
+		const position = {
 			'x' : e.clientX,
 			'y' : e.clientY
 		}
@@ -198,8 +198,8 @@ var skinableCursor = {
 	// privateメソッド。ドキュメントのスクロール位置を取得する。
 	getScrollPosition : function () {
 
-		var x = 0;
-		var y = 0;
+		let x = 0;
+		let y = 0;
 
 		if( typeof( window.pageYOffset ) == 'number' ) {
 			x = window.pageXOffset;
@@ -212,7 +212,7 @@ var skinableCursor = {
 			y = document.body.scrollTop;
 		}
 
-		var position = {
+		const position = {
 			'x' : x,
 			'y' : y
 		}
@@ -228,7 +228,7 @@ var skinableCursor = {
 			skinableCursor.noSkin = true;
 			document.body.style.cursor = 'pointer';
 
-			var c = skinableCursor.cursor;
+			const c = skinableCursor.cursor;
 			c.lt.el.style.display = 'none';
 			c.rt.el.style.display = 'none';
 			c.rb.el.style.display = 'none';
