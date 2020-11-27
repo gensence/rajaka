@@ -32,8 +32,8 @@ contextmenu.jsは固有項目のコンテキストメニューを表示するサ
 	<title>コンテキストメニュー</title>
 	<script type="text/javascript" src="contextmenu.js"></script>
 	<script type="text/javascript">
-		SimpleContextMenu.setup({'preventDefault':true, 'preventForms':false});
-		SimpleContextMenu.attach('container', 'CM1');
+		ContextMenu.setup({'preventDefault':true, 'preventForms':false});
+		ContextMenu.attach('container', 'CM');
 	</script>
 	<style type="text/css">
 ul.SimpleContextMenu {
@@ -75,7 +75,7 @@ div.container {
 	</style>
 </head>
 <body>
-	<ul id="CM1" class="SimpleContextMenu">
+	<ul id="CM" class="SimpleContextMenu">
 		<li><a href="#">複製</a></li>
 		<li><a href="#">修正</a></li>
 		<li><a href="#">削除</a></li>
