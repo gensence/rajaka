@@ -1,11 +1,11 @@
 ---
 template: post
-title: 【JavaScript】カーソルデザインを変更する
+title: 【JavaScript】カーソルデザイン
 slug: javascript-custom-cursor
 draft: false
 priority: 0
 date: 2019-04-10T16:37:25.425Z
-description: JavaScriptでsprintfを実装するサンプルコード
+description: JavaScriptでカーソルデザインを変更するサンプルコード
 category: JavaScript
 tags:
   - プログラミング
