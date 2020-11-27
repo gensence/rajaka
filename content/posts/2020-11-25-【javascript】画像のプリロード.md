@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【JavaScript】画像のプリロード
+title: 【JavaScript】画像プリロード
 slug: javascript-image-preload
 draft: false
 priority: 0
