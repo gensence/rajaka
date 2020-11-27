@@ -17,15 +17,15 @@
   },
   "experiments": [
     {
-      "name": "SpotSend",
-      "locationIcon": "globe.svg",
+      "name": "WebfileMan",
+      "locationIcon": "japan.png",
       "description": "オンラインファイル転送サービス",
-      "builtWith": ["php", "jquery", "apache", "centos"],
-      "link": "https://spotsend.com/"
+      "builtWith": ["symfony", "php", "jquery", "apache", "centos"],
+      "link": "https://www.webfileman.com/"
     },
     {
       "name": "SeoLig",
-      "locationIcon": "",
+      "locationIcon": "japan.png",
       "description": "SEOツール集",
       "builtWith": ["php", "jquery", "bootstrap", "apache", "mysql", "centos"],
       "link": "https://seolig.com/",
@@ -33,7 +33,7 @@
     },
     {
       "name": "Cointicker",
-      "locationIcon": "",
+      "locationIcon": "japan.png",
       "description": "仮想通貨リアルタイム価格リスト",
       "builtWith": ["codeigniter", "php", "nodejs", "jquery", "socketio", "bootstrap", "apache", "mysql", "centos"],
       "link": "https://cointicker.org/",
@@ -183,6 +183,12 @@
       "logo": "centos.svg",
       "website": "https://www.centos.org/",
       "displayInTopList": false
+    },
+    "symfony": {
+      "name": "symfony",
+      "logo": "symfony.png",
+      "website": "https://symfony.com/",
+      "displayInTopList": false
     }
   },
   "skills": {
@@ -200,17 +206,17 @@
       "featured": ["Vanilla PHP"],
       "other": [
         "CodeIgniter",
+        "Symfony",
         "Vanilla JS",
-        "VBA",
+        "jQuery",
+        "Underscore.js",
+        "Bootstrap 4",
         "CSS 3",
         "HTML 5",
-        "Bootstrap",
-        "Node.js",
-        "jQuery",
-        "Socket.io",
-        "Underscore.js",
+        "VBA",
         "Apache",
         "Nginx",
+        "Node.js",
         "MySQL",
         "SQLite",
         "LAMP Stack"
