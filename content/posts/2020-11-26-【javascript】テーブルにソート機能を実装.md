@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【JavaScript】テーブルにソート機能を追加する
+title: 【JavaScript】テーブルソート
 slug: javascript-sortable-table
 draft: false
 priority: 0
