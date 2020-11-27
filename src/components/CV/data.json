@@ -17,14 +17,14 @@
   },
   "experiments": [
     {
-      "name": "WebfileMan",
+      "name": "www.WebfileMan.com",
       "locationIcon": "japan.png",
       "description": "オンラインファイル転送サービス",
       "builtWith": ["symfony", "php", "jquery", "apache", "centos"],
       "link": "https://www.webfileman.com/"
     },
     {
-      "name": "SeoLig",
+      "name": "SeoLig.com",
       "locationIcon": "japan.png",
       "description": "SEOツール集",
       "builtWith": ["php", "jquery", "bootstrap", "apache", "mysql", "centos"],
@@ -32,7 +32,7 @@
       "sourceCode": ""
     },
     {
-      "name": "Cointicker",
+      "name": "Cointicker.org",
       "locationIcon": "japan.png",
       "description": "仮想通貨リアルタイム価格リスト",
       "builtWith": ["codeigniter", "php", "nodejs", "jquery", "socketio", "bootstrap", "apache", "mysql", "centos"],
@@ -40,14 +40,14 @@
       "sourceCode": ""
     },
     {
-      "name": "VbaFin",
+      "name": "www.VbaFin.com",
       "locationIcon": "globe.svg",
       "description": "金融専門家向けVBAコードとDL可能サンプルを掲載",
       "builtWith": ["php", "jquery", "apache", "centos"],
       "link": "https://www.vbafin.com/"
     },
     {
-      "name": "DailyAlexa",
+      "name": "DailyAlexa.info",
       "locationIcon": "globe.svg",
       "description": "毎日のAlexaトラフィックランキング情報を掲載",
       "builtWith": ["php", "jquery", "apache", "mysql", "centos"],
@@ -55,7 +55,7 @@
       "sourceCode": ""
     },
     {
-      "name": "Qrcode",
+      "name": "Qrcode.casa",
       "locationIcon": "globe.svg",
       "description": "QRコードデザイン生成ツール",
       "builtWith": ["php", "jquery", "bootstrap", "apache", "centos"],
