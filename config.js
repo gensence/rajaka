@@ -31,7 +31,7 @@ module.exports = {
       instagram: '',
       facebook: '',
       email: 'info@rajaka.net',
-      rss: '/rss.xml'
+      rss: ''
     }
   }
 }
