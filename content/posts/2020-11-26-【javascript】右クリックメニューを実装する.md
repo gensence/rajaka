@@ -1,11 +1,11 @@
 ---
 template: post
-title: 【JavaScript】右クリックメニューを実装する
+title: 【JavaScript】コンテキストメニュー
 slug: javascript-context-menu
 draft: false
 priority: 0
 date: 2020-01-08T06:12:53.205Z
-description: JavaScriptでコンテキストメニューを表示するサンプル
+description: JavaScriptで右クリックで表示するメニューを実装するサンプル
 category: JavaScript
 tags:
   - プログラミング
