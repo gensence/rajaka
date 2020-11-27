@@ -1,11 +1,11 @@
 ---
 template: post
-title: 【JavaScript】要素をドラッグアンドドロップする
+title: 【JavaScript】ドラッグアンドドロップ
 slug: javascript-drag-and-drop
 draft: false
 priority: 0
 date: 2020-09-15T06:55:47.961Z
-description: Webページ上の要素や画像をドラッグする方法
+description: Webページ上の要素や画像をドラッグアンドドロップする方法
 category: JavaScript
 tags:
   - プログラミング
