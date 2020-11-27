@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【JavaScript】sprintfを実装する
+title: 【JavaScript】sprintf
 slug: javascript-sprintf
 draft: false
 priority: 0
