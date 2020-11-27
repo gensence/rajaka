@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【JavaScript】要素ドラッグアンドドロップ
+title: 【JavaScript】要素ドラッグ＆ドロップ
 slug: javascript-drag-and-drop
 draft: false
 priority: 0
