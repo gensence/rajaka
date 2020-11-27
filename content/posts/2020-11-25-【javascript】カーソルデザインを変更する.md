@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【JavaScript】カーソルデザイン
+title: 【JavaScript】カーソルデザイン変更
 slug: javascript-custom-cursor
 draft: false
 priority: 0
