@@ -22,17 +22,16 @@ tags:
 
 ![](/media/junkemailfilter-1.png)
 
-IP to lookup: にIPアドレスを入力後Lookupをクリックします。
+IP to lookup: にIPアドレスを入力後Lookupをクリックします。<br>
 
 ![](/media/junkemailfilter-2.png)
 
-ブラックリストに登録されていると上画像のように赤文字でBlack listedと表示されます。<br>IP to search: にIPアドレスを入力後、Searchをクリックします。
+ブラックリストに登録されていると上画像のように赤文字でBlack listedと表示されます。<br>IP to search: にIPアドレスを入力後、Searchをクリックします。<br>
 
 ![](/media/junkemailfilter-3.png)
 
-Ip to remove: にIPアドレスを入力後、Removeをクリックします。
+Ip to remove: にIPアドレスを入力後、Removeをクリックします。<br>
 
 ![](/media/junkemailfilter-4.png)
 
-数分後解除が実行されます。
-<br>但し、スパムカウンターが上昇すると再度ブラックリストに登録されます。
+数分後解除が実行されます。 <br>但し、スパムカウンターが上昇すると再度ブラックリストに登録されます。
