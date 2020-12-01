@@ -22,15 +22,15 @@ tags:
 
 ![](/media/junkemailfilter-1.png)
 
-IP to lookup: にIPアドレスを入力後Lookupをクリックします。<br>
+IP to lookup: にIPアドレスを入力後Lookupをクリックします。<br><br>
 
 ![](/media/junkemailfilter-2.png)
 
-ブラックリストに登録されていると上画像のように赤文字でBlack listedと表示されます。<br>IP to search: にIPアドレスを入力後、Searchをクリックします。<br>
+ブラックリストに登録されていると上画像のように赤文字でBlack listedと表示されます。<br>IP to search: にIPアドレスを入力後、Searchをクリックします。<br><br>
 
 ![](/media/junkemailfilter-3.png)
 
-Ip to remove: にIPアドレスを入力後、Removeをクリックします。<br>
+Ip to remove: にIPアドレスを入力後、Removeをクリックします。<br><br>
 
 ![](/media/junkemailfilter-4.png)
 
