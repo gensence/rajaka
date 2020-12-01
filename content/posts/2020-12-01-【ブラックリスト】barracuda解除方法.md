@@ -15,6 +15,7 @@ tags:
 # b.barracudacentral.org（BRBL）にIPアドレスが登録されてメールが届かなくなった
 
 <strong>b.barracudacentral.org</strong>（以下BRBL）は<a href="https://www.barracudacentral.org/" target="_blank">バラクーダセントラル</a>が管理するIPアドレスのデータベースです。<br>バラクーダセントラルの運営は<a href="https://www.barracuda.com/" target="_blank">Barracuda Networks社</a>が行っています。<br>IPアドレスがバラクーダセントラルによってBRBLに登録された場合、BRBLをメールフィルターとして採用しているメールサーバー宛てに送信したメールは<strong>ブロックされて届きません。</strong><br>バラクーダセントラルは主に２つの方法でIPアドレスを収集しています。<br>
+
 <ol><li><h3>Barracuda Netwarks社のスパムメール対策製品である<a href="https://www.barracuda.co.jp/products/spam/" target="_blank">Barracuda Email Security Gateway</a>からのフィードバックの解析</h3></li>
 <li><h3>スパムトラップ（ハニーポット）に送信されたメールの解析</h3>
 </li></ol>
@@ -50,16 +51,14 @@ tags:
 
 ![](/media/barracuda-0.png)
 
-IPアドレスがBRBLに登録されているか調べる必要がありますので、IP or Domainに調べたいIPアドレスを入力し、Check Reputationをクリックしてください。
+IPアドレスがBRBLに登録されているか調べる必要がありますので、IP or Domainに調べたいIPアドレスを入力し、Check Reputationをクリックしてください。<br>
 
 ![](/media/barracuda-1.png)
 
-\
-上画像のように赤枠が表示されたらIPアドレスがBRBLに登録されています。<br>次に、赤枠内のclick here.リンクをクリックします。			
+上画像のように赤枠が表示されたらIPアドレスがBRBLに登録されています。<br>次に、赤枠内のclick here.リンクをクリックします。<br>			
 
 ![](/media/barracuda-2.png)
 
-\
 IPアドレス、メールアドレス、電話番号、解除理由を入力後、Submit Requestをクリックします。<br>※解除理由の入力は任意です。下に解除文例を載せました。<br><br><strong>申請後24時間～48時間</strong>の間に審査され、問題がなければ解除されます。<br><br>解除となった場合は以後30日間はメールの送受信が可能になります。<br> 				ただし30日経過後に再度審査が行われます。<br>以上Barracuda BRBLの解除方法でした。<br> <br>
 
 <h1>解除理由文例</h1>
