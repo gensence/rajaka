@@ -16,13 +16,13 @@ tags:
 
 <strong>b.barracudacentral.org</strong>（以下BRBL）は<a href="https://www.barracudacentral.org/" target="_blank">バラクーダセントラル</a>が管理するIPアドレスのデータベースです。<br>バラクーダセントラルの運営は<a href="https://www.barracuda.com/" target="_blank">Barracuda Networks社</a>が行っています。<br>IPアドレスがバラクーダセントラルによってBRBLに登録された場合、BRBLをメールフィルターとして採用しているメールサーバー宛てに送信したメールは<strong>ブロックされて届きません。</strong><br>バラクーダセントラルは主に２つの方法でIPアドレスを収集しています。<br>
 <ol><li><h3>Barracuda Netwarks社のスパムメール対策製品である<a href="https://www.barracuda.co.jp/products/spam/" target="_blank">Barracuda Email Security Gateway</a>からのフィードバックの解析</h3></li>
-<li><h3><strong>スパムトラップ（ハニーポット）</strong>に送信されたメールの解析</h3>
+<li><h3>スパムトラップ（ハニーポット）に送信されたメールの解析</h3>
 </li></ol>
 以上からも通常のメールを適切に送信しているだけでは登録されないはずです。<br> 				ではどのようなIPアドレスがBRBLに登録されてしまうのでしょうか。<br><br>
 
 <h1>b.barracudacentral.orgに登録される原因</h1>
 
-<ol><li><h3>「ホスティングサービスで他のユーザがスパム配信を行っている」</h4>
+<ol><li><h3>「ホスティングサービス（レンタルサーバー等）で共有IP内の他のユーザがスパム配信を行っている」</h4>
 						レンタルサーバ等では、ある１ユーザーのスパム配信により登録されたために、そのサーバーに同居する別のユーザーにも影響を与えてしまうケースがあります。<br>
 						<br></li>
 						<li><h3>「メールサーバのオープンリレーの許可」</h3>
@@ -44,7 +44,7 @@ tags:
 
 １に該当するケースが多々あるようです。<br>その為、バラクーダセントラルでは解除申請を受け付けています。<br><br>
 
-<h1>b.barracudacentral.org解除方法</h1>
+<h1>b.barracudacentral.orgの解除方法</h1>
 
 バラクーダセントラルに解除申請を行うことで自分のIPアドレスをBRBLから解除できます。<br>下記のリンクからバラクーダセントラルを開きます。<br><a href="https://barracudacentral.org/lookups" target="_blank">https://barracudacentral.org/lookups</a><br>
 
