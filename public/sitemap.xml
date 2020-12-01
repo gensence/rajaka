@@ -5,70 +5,79 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-
 <url>
   <loc>https://rajaka.net/</loc>
-  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://rajaka.net/cv/</loc>
-  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://rajaka.net/category/javascript/</loc>
-  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rajaka.net/category/jquery/</loc>
-  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/category/%E3%83%A1%E3%83%BC%E3%83%AB%E9%85%8D%E4%BF%A1/</loc>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/dnsbl-cbl/</loc>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/dnsbl-anonmails/</loc>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/dnsbl-apews/</loc>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/dnsbl-barracuda/</loc>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/dnsbl-junkemailfilter/</loc>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rajaka.net/dnsbl-sorbs/</loc>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rajaka.net/javascript-drag-and-drop/</loc>
-  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rajaka.net/javascript-context-menu/</loc>
-  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rajaka.net/javascript-sortable-table/</loc>
-  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rajaka.net/javascript-custom-cursor/</loc>
-  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rajaka.net/jquery-menu/</loc>
-  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://rajaka.net/javascript-unselectable-text/</loc>
-  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://rajaka.net/javascript-image-preload/</loc>
-  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://rajaka.net/javascript-cookie/</loc>
-  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://rajaka.net/javascript-sprintf/</loc>
-  <lastmod>2020-11-26T12:02:46+00:00</lastmod>
+  <lastmod>2020-12-01T15:05:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
