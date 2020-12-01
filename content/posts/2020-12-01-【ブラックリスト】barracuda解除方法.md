@@ -5,7 +5,7 @@ slug: dnsbl-barracuda
 draft: false
 priority: 0
 date: 2020-12-01T13:24:38.241Z
-description: b.barracudacentral.orgにIPアドレスが登録されてメールが届かなくなった場合の解除方法
+description: b.barracudacentral.orgにIPアドレスが登録されてメールが届かなくなった場合の解除方法と解除メッセージ文例
 category: メール配信
 tags:
   - ブラックリスト
