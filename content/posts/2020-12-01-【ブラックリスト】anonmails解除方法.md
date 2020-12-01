@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【ブラックリスト】anonmails解除方法
+title: 【ブラックリスト】Anonmails解除方法
 slug: dnsbl-anonmails
 draft: true
 priority: 0
