@@ -22,15 +22,12 @@ tags:
 
 ![](/media/anonmails-1.png)
 
-\
-IPアドレスを入力後Checkをクリックします。
+IPアドレスを入力後Checkをクリックします。<br>
 
 ![](/media/anonmails-2.png)
 
-\
-DNSBL Removal Requestをクリックします。
+DNSBL Removal Requestをクリックします。<br>
 
 ![](/media/anonmails-3.png)
 
-\
 IPアドレス、氏名、解除理由、質問の回答を入力後、Submitをクリックします。<br> 				解除は申請後1時間～24時間で実行されます。<br> 				以上spam.dnsbl.anonmails.deの解除方法でした。<br>
