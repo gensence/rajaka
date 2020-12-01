@@ -51,11 +51,11 @@ tags:
 
 ![](/media/barracuda-0.png)
 
-IPアドレスがBRBLに登録されているか調べる必要がありますので、IP or Domainに調べたいIPアドレスを入力し、Check Reputationをクリックしてください。<br>
+IPアドレスがBRBLに登録されているか調べる必要がありますので、IP or Domainに調べたいIPアドレスを入力し、Check Reputationをクリックしてください。<br><br>
 
 ![](/media/barracuda-1.png)
 
-上画像のように赤枠が表示されたらIPアドレスがBRBLに登録されています。<br>次に、赤枠内のclick here.リンクをクリックします。<br>			
+上画像のように赤枠が表示されたらIPアドレスがBRBLに登録されています。<br>次に、赤枠内のclick here.リンクをクリックします。<br><br>	
 
 ![](/media/barracuda-2.png)
 
