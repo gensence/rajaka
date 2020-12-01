@@ -22,11 +22,11 @@ tags:
 
 ![](/media/anonmails-1.png)
 
-IPアドレスを入力後Checkをクリックします。<br>
+IPアドレスを入力後Checkをクリックします。<br><br>
 
 ![](/media/anonmails-2.png)
 
-DNSBL Removal Requestをクリックします。<br>
+DNSBL Removal Requestをクリックします。<br><br>
 
 ![](/media/anonmails-3.png)
 
