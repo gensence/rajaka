@@ -7,7 +7,7 @@ const Experiments = ({ experiments, tech }) => (
     <Card className="experiments">
       <Row type="flex" justify="space-around">
         {experiments.map((experiment, i) => (
-          <Col span={8} className="pl-5" key={i}>
+          <Col span={12} className="pl-6" key={i}>
             <h4 className="mb-0 text-lg">
               <a href={experiment.link}>
                 <span className="inline-block mr-3">{experiment.name}</span>
