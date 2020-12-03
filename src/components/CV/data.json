@@ -30,20 +30,12 @@
       "builtWith": ["php", "jquery", "mysql"],
       "link": "https://seolig.com/",
       "sourceCode": ""
-    },
-    {
-      "name": "Cointicker.org",
-      "locationIcon": "japan.png",
-      "description": "仮想通貨リアルタイム価格リスト",
-      "builtWith": ["php", "jquery", "nodejs", "mysql"],
-      "link": "https://cointicker.org/",
-      "sourceCode": ""
-    },
+    }
     {
       "name": "www.VbaFin.com",
       "locationIcon": "globe.svg",
       "description": "金融専門家向けVBAコードとDL可能サンプル",
-      "builtWith": ["php", "jquery"],
+      "builtWith": [],
       "link": "https://www.vbafin.com/"
     },
     {
