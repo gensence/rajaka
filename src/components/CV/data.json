@@ -17,20 +17,20 @@
   },
   "experiments": [
     {
-      "name": "WebfileMan.com",
+      "name": "www.WebfileMan.com",
       "locationIcon": "japan.png",
       "description": "オンラインファイル転送サービス",
-      "builtWith": ["php", "jquery"],
+      "builtWith": [],
       "link": "https://www.webfileman.com/"
     },
     {
       "name": "SeoLig.com",
       "locationIcon": "japan.png",
       "description": "SEOツール",
-      "builtWith": ["php", "jquery", "mysql"],
+      "builtWith": [],
       "link": "https://seolig.com/",
       "sourceCode": ""
-    }
+    },
     {
       "name": "www.VbaFin.com",
       "locationIcon": "globe.svg",
@@ -42,7 +42,7 @@
       "name": "DailyAlexa.info",
       "locationIcon": "globe.svg",
       "description": "毎日のAlexaトラフィックランキング情報",
-      "builtWith": ["php", "jquery", "mysql"],
+      "builtWith": [],
       "link": "https://dailyalexa.info/",
       "sourceCode": ""
     }
