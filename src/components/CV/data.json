@@ -32,6 +32,8 @@
       "sourceCode": ""
     },
     {
+    },
+    {
       "name": "www.VbaFin.com",
       "locationIcon": "globe.svg",
       "description": "金融専門家向けVBAコードとDL可能サンプル",
@@ -189,7 +191,6 @@
       "featured": ["Vanilla PHP"],
       "other": [
         "CodeIgniter",
-        "Symfony",
         "Vanilla JS",
         "jQuery",
         "Underscore.js",
