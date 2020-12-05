@@ -37,14 +37,6 @@
       "description": "金融専門家向けVBAコードとDL可能サンプル",
       "builtWith": [],
       "link": "https://www.vbafin.com/"
-    },
-    {
-      "name": "DailyAlexa.info",
-      "locationIcon": "globe.svg",
-      "description": "毎日のAlexaトラフィックランキング情報",
-      "builtWith": [],
-      "link": "https://dailyalexa.info/",
-      "sourceCode": ""
     }
   ],
   "pitchLine": "Likes",
