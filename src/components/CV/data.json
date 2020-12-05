@@ -17,7 +17,7 @@
   },
   "experiments": [
     {
-      "name": "www.WebfileMan.com",
+      "name": "WebfileMan.com",
       "locationIcon": "japan.png",
       "description": "オンラインファイル転送サービス",
       "builtWith": [],
@@ -32,7 +32,7 @@
       "sourceCode": ""
     },
     {
-      "name": "www.VbaFin.com",
+      "name": "VbaFin.com",
       "locationIcon": "globe.svg",
       "description": "金融専門家向けVBAコードとDL可能サンプル",
       "builtWith": [],
