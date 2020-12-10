@@ -191,7 +191,6 @@
         "CodeIgniter",
         "Vanilla JS",
         "jQuery",
-        "Underscore.js",
         "Bootstrap 4",
         "CSS 3",
         "HTML 5",
@@ -199,6 +198,7 @@
         "Apache",
         "Nginx",
         "MySQL",
+        "PostgreSQL",
         "SQLite",
         "LAMP Stack"
       ]
