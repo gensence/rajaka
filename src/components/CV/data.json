@@ -20,14 +20,14 @@
       "name": "WebfileMan.com",
       "locationIcon": "japan.png",
       "description": "ファイル転送サービス",
-      "builtWith": ["PHP"],
+      "builtWith": ["php"],
       "link": "https://www.webfileman.com/"
     },
     {
       "name": "SeoLig.com",
       "locationIcon": "japan.png",
       "description": "SEOツール",
-      "builtWith": ["PHP"],
+      "builtWith": ["php"],
       "link": "https://seolig.com/",
       "sourceCode": ""
     },
@@ -35,7 +35,7 @@
       "name": "VidFB.com",
       "locationIcon": "globe.png",
       "description": "Facebook動画ダウンローダー",
-      "builtWith": ["PHP"],
+      "builtWith": ["php"],
       "link": "https://vidfb.com/",
       "sourceCode": ""
     },
@@ -43,7 +43,7 @@
       "name": "VbaFin.com",
       "locationIcon": "globe.svg",
       "description": "金融専門家向けVBAコード＆DL可能サンプル",
-      "builtWith": ["PHP"],
+      "builtWith": ["php"],
       "link": "https://www.vbafin.com/"
     }
   ],
