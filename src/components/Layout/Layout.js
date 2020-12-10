@@ -17,7 +17,6 @@ const Layout = ({ children, title, description, keywords, article }) => (
       {article && article.title && <meta property="og:title" content={article.title} />}
       {article && article.description && (
         <meta property="og:description" content={article.description} />
-        <script data-ad-client="ca-pub-6835600394159446" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       )}
     </Helmet>
     {children}
