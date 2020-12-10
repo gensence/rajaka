@@ -33,7 +33,7 @@
     },
     {
       "name": "VidFB.com",
-      "locationIcon": "globe.png",
+      "locationIcon": "globe.svg",
       "description": "Facebook動画ダウンローダー",
       "builtWith": ["php"],
       "link": "https://vidfb.com/",
