@@ -4,7 +4,7 @@ module.exports = {
   title: 'Rajaka.net',
   keywords:
     'php,javascript,プログラミング,コーディング,ブログ,サンプル',
-  subtitle: 'Internet enthusiast's blog',
+  subtitle: 'Internet freaks blog',
   copyright: '© 2020 | Rajaka.net',
   disqusShortname: 'raj',
   postsPerPage: 20,
@@ -22,7 +22,7 @@ module.exports = {
   author: {
     name: 'Rajaka.net',
     photo: '/photo.jpg',
-    bio: 'Internet enthusiast's blog',
+    bio: 'Internet freaks blog',
     contacts: {
       github: '',
       twitter: 'pacificparam',
