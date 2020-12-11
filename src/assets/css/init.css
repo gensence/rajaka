@@ -2,7 +2,6 @@
 @tailwind utilities;
 @import 'poppins-font.css';
 @import 'ribbon.css';
-@import 'prism.css';
 
 html {
   font-size: 62.5%;
