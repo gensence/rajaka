@@ -22,7 +22,7 @@ const Content = ({ body, title, date, externalLink }) => (
         <p className="text-gray-500">
           Posted on{' '}
           <time dateTime={dayjs(date).format('MMMM D, YYYY')}>
-            {dayjs(date).format('MMMM DD, YYYY')}
+            {dayjs(date).format('YYYY”NMMŒŽDD“ú')}
           </time>{' '}
           {/* | {readingTime(body).text} */}
         </p>
