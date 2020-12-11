@@ -5,12 +5,12 @@ slug: javascript-drag-and-drop
 draft: false
 priority: 0
 date: 2020-09-15T06:55:47.961Z
-description: Webページ上の要素や画像をドラッグアンドドロップする方法
+description: 【HTML+JavaScript】Webページ上の要素や画像をドラッグアンドドロップする方法とコピペで使えるコードを掲載。
 category: JavaScript
 tags:
   - プログラミング
 ---
-drag.jsはWebページ上の要素や画像をドラッグするためのスクリプトです。
+Webページ上の要素や画像をドラッグするためのスクリプトを作成しました。
 
 ### 使い方
 

@@ -5,7 +5,8 @@ slug: javascript-custom-cursor
 draft: false
 priority: 0
 date: 2019-04-10T16:37:25.425Z
-description: JavaScriptでカーソルデザインを変更するサンプルコード
+description: |
+  【HTML+JavaScript】JavaScriptでカーソルデザインを変更するサンプルコードを掲載しています。
 category: JavaScript
 tags:
   - プログラミング

@@ -5,12 +5,14 @@ slug: javascript-context-menu
 draft: false
 priority: 0
 date: 2020-01-08T06:12:53.205Z
-description: JavaScriptで右クリックで表示するメニューを実装するサンプル
+description: 【HTML+CSS+JavaScript】右クリックで展開・表示するメニューの実装方法とコピペで使えるコードを掲載。
 category: JavaScript
 tags:
   - プログラミング
 ---
-contextmenu.jsは固有項目のコンテキストメニューを表示するサンプルです。
+右クリックで固有項目のコンテキストメニューを表示するサンプルを作成しました。
+
+コピー＆ペーストですぐ使用できます。
 
 <!--StartFragment-->
 
