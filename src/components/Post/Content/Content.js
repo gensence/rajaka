@@ -20,9 +20,9 @@ const Content = ({ body, title, date, externalLink }) => (
       <>
         <h1 className="text-5xl mt-3 mb-0">{title}</h1>
         <p className="text-gray-500">
-          Posted on{' '}
+          æŠ•ç¨¿æ—¥{' '}
           <time dateTime={dayjs(date).format('MMMM D, YYYY')}>
-            {dayjs(date).format('YYYY”NMMŒŽDD“ú')}
+            {dayjs(date).format('YYYYå¹´MMæœˆDDæ—¥')}
           </time>{' '}
           {/* | {readingTime(body).text} */}
         </p>
