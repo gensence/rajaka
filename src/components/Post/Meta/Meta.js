@@ -3,7 +3,7 @@ import dayjs from 'dayjs'
 
 const Meta = ({ date }) => (
   <div className="">
-    <p className="">Published {dayjs(date).format('D MMM YYYY')}</p>
+    <p className="">ŒöŠJ“ú {dayjs(date).format('YYYY”NMMŒŽDD“ú')}</p>
   </div>
 )
 

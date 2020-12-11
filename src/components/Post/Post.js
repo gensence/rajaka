@@ -30,7 +30,7 @@ const Post = ({ post, allCategories }) => {
         ← 全ての記事を見る
       </Link>
 
-      <div className="">
+      <div className="text-sm">
         <Content body={html} title={title} date={date} externalLink={externalLink} />
       </div>
 
