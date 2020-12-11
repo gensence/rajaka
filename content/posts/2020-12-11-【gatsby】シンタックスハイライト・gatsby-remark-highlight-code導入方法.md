@@ -45,10 +45,10 @@ plugins: [
           options: {
             terminal: 'ubuntu'
           }
-        },
-      ],
-    },
-  },
+        }
+      ]
+    }
+  }
 ]
 ```
 
@@ -79,10 +79,10 @@ plugins: [
             terminal: 'ubuntu',
             theme: 'vscode'
           }
-        },
-      ],
-    },
-  },
+        }
+      ]
+    }
+  }
 ]
 ```
 
