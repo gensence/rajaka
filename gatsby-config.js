@@ -122,7 +122,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-highlight-code`,
             options: {
-              terminal: 'ubuntu'
+              terminal: 'ubuntu',
+              theme: 'monokai'
             }
           },
         ]
