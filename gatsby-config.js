@@ -104,7 +104,7 @@ module.exports = {
             options: { wrapperStyle: 'margin-bottom: 1.0725rem' }
           },
           {
-            resolve: 'gatsby-remark-prismjs',
+            resolve: `gatsby-remark-prismjs`,
             options: {
               classPrefix: "language-",
               inlineCodeMarker: null,
