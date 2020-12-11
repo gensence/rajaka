@@ -1,10 +1,10 @@
 ---
 template: post
-title: 【ブラックリスト】JunkEmailFilter解除方法
+title: 【DNSBL】JunkEmailFilter解除方法
 slug: dnsbl-junkemailfilter
 draft: false
 priority: 0
-date: 2020-12-01T13:07:09.249Z
+date: 2020-11-17T13:07:09.249Z
 description: メールブラックリスト、JunkEmailFilterの解除方法と解除文例をまとめました
 category: メール配信
 tags:
