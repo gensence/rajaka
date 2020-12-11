@@ -34,14 +34,11 @@ IPアドレス、氏名、解除理由、質問の回答を入力後、Submitを
 
 # 解除理由文例
 
-```
-Hello,
-We are unable to send email to some destination because of your blacklist.
-1.we never engage in email marketing (total of less than 500 emails per month from both IPs)
-2.we strictly manage server security and have never had a problem with malware.
-I believe these IPs are on the blacklist due to the actions of previous owners.
-I would be much obliged if you could investigate and remove these IPs from the blacklist.
-Best regards.
-
-Suzuki Tarou<br>
-```
+> Hello, We are unable to send email to some destination because of your blacklist.
+> 1.we never engage in email marketing (total of less than 500 emails per month from both IPs)
+> 2.we strictly manage server security and have never had a problem with malware.
+> I believe these IPs are on the blacklist due to the actions of previous owners.
+> I would be much obliged if you could investigate and remove these IPs from the blacklist.
+> Best regards.
+>
+> Suzuki Tarou
