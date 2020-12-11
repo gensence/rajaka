@@ -123,9 +123,9 @@ module.exports = {
             resolve: `gatsby-remark-highlight-code`,
             options: {
               terminal: 'ubuntu',
-              theme: 'monokai'
+              theme: 'blackboard'
             }
-          },
+          }
         ]
       }
     },
