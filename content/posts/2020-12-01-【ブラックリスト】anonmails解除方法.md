@@ -1,10 +1,10 @@
 ---
 template: post
-title: 【ブラックリスト】Anonmails解除方法
+title: 【DNSBL】Anonmails解除方法
 slug: dnsbl-anonmails
 draft: false
 priority: 0
-date: 2020-12-01T14:09:45.095Z
+date: 2020-11-26T14:09:45.095Z
 description: spam.dnsbl.anonmails.deに登録された場合の解除方法と解除メッセージ文例
 category: メール配信
 tags:
