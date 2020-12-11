@@ -1,7 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { Layout as AntLayout } from 'antd'
-import "prismjs/themes/prism-tomorrow.css"
 
 const Layout = ({ children, title, description, keywords, article }) => (
   <AntLayout className="bg-transparent min-h-screen">
