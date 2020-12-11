@@ -5,12 +5,12 @@ slug: javascript-sortable-table
 draft: false
 priority: 0
 date: 2019-10-16T04:44:36.031Z
-description: JavaScriptでテーブルにソート機能を実装するサンプル
+description: 【HTML+CSS+JavaScript】通常のテーブルをソート可能なテーブルに変換する方法、テーブルにソート機能を実装する方法とコピペで使えるコードを掲載。
 category: JavaScript
 tags:
   - プログラミング
 ---
-sorttable.jsは、通常のHTML内のテーブルをソート可能なテーブルに変換します。
+通常のHTML内のテーブルをソート可能なテーブルに変換するサンプルをJavaScriptで作成しました。
 
 ### 使い方
 
