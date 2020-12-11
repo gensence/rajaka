@@ -18,14 +18,14 @@
   "experiments": [
     {
       "name": "Infirit.com",
-      "locationIcon": ["chrome.svg","japan.png"],
+      "locationIcon": "chrome.svg",
       "description": "雑学系コンテンツポータル＆検索エンジン",
       "builtWith": ["php"],
       "link": "https://infirit.com/"
     },
     {
       "name": "SeoLig.com",
-      "locationIcon": ["chrome.svg","japan.png"],
+      "locationIcon": "chrome.svg",
       "description": "SEOツールサイト",
       "builtWith": ["php"],
       "link": "https://seolig.com/",
@@ -33,7 +33,7 @@
     },
     {
       "name": "VidFB.com",
-      "locationIcon": ["chrome.svg","globe.svg"],
+      "locationIcon": "chrome.svg",
       "description": "Facebook動画ダウンローダー",
       "builtWith": ["php"],
       "link": "https://vidfb.com/",
@@ -41,17 +41,24 @@
     },
     {
       "name": "VbaFin.com",
-      "locationIcon": ["chrome.svg","globe.svg"],
+      "locationIcon": "chrome.svg",
       "description": "金融専門家向けVBAコード＆DL可能サンプル",
       "builtWith": ["php"],
       "link": "https://www.vbafin.com/"
     },
     {
       "name": "WebfileMan.com",
-      "locationIcon": ["chrome.svg","japan.png"],
+      "locationIcon": "chrome.svg",
       "description": "ファイル転送サービス",
       "builtWith": ["php"],
       "link": "https://www.webfileman.com/"
+    },
+    {
+      "name": "Rajaka.net",
+      "locationIcon": "chrome.svg",
+      "description": "雑記ブログ",
+      "builtWith": ["gatsby"],
+      "link": "https://rajaka.net/"
     }
   ],
   "pitchLine": "Likes",
