@@ -1,6 +1,8 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { Layout as AntLayout } from 'antd'
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+deckDeckGoHighlightElement();
 
 const Layout = ({ children, title, description, keywords, article }) => (
   <AntLayout className="bg-transparent min-h-screen">

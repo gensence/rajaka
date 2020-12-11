@@ -118,7 +118,13 @@ module.exports = {
               controls: false,
               loop: true
             }
-          }
+          },
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: 'ubuntu'
+            }
+          },
         ]
       }
     },

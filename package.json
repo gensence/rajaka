@@ -37,6 +37,7 @@
   ],
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
+    "@deckdeckgo/highlight-code": "^2.2.2",
     "antd": "^4.2.3",
     "dayjs": "^1.8.27",
     "gatsby": "^2.21.33",
@@ -54,6 +55,7 @@
     "gatsby-plugin-sitemap": "^2.4.2",
     "gatsby-remark-autolink-headers": "^2.3.2",
     "gatsby-remark-copy-linked-files": "^2.3.2",
+    "gatsby-remark-highlight-code": "^2.1.1",
     "gatsby-remark-images": "^3.3.3",
     "gatsby-remark-prismjs": "^3.9.0",
     "gatsby-remark-relative-images": "^0.3.0",
