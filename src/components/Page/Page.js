@@ -4,7 +4,7 @@ import { Layout } from 'antd'
 const { Content } = Layout
 
 const Page = ({ title, children }) => (
-  <Content className="text-lg">
+  <Content className="text-sm">
     {title && <h1 className="post">{title}</h1>}
     <div className="">{children}</div>
   </Content>

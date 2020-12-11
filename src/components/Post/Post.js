@@ -27,7 +27,7 @@ const Post = ({ post, allCategories }) => {
   return (
     <AntContent className="p-10">
       <Link className="" to="/">
-        ← All Articles
+        ← 全ての記事を見る
       </Link>
 
       <div className="">
