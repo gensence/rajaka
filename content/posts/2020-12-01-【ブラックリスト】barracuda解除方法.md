@@ -1,11 +1,12 @@
 ---
 template: post
-title: 【DNSBL】Barracuda解除方法
+title: b.barracudacentral.org 解除方法
 slug: dnsbl-barracuda
 draft: false
 priority: 0
 date: 2020-11-19T13:24:38.241Z
-description: b.barracudacentral.orgにIPアドレスが登録されてメールが届かなくなった場合の解除方法と解除メッセージ文例
+description: 【DNSBL】Barracuda -
+  b.barracudacentral.orgにIPアドレスが登録されてメールが届かなくなった場合の解除方法と解除メッセージ文例
 category: メール配信
 tags:
   - ブラックリスト
