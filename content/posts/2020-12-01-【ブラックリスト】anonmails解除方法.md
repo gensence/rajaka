@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【DNSBL】Anonmails解除方法
+title: 【DNSBL】Anonmails - spam.dnsbl.anonmails.de 解除方法
 slug: dnsbl-anonmails
 draft: false
 priority: 0
