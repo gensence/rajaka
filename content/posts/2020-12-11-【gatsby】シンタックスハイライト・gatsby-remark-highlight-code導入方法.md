@@ -4,7 +4,7 @@ title: 【Gatsby】シンタックスハイライト･gatsby-remark-highlight-c
 slug: gatsby-sintax-highlight
 draft: false
 priority: 0
-date: 2020-12-11T13:25:15.057Z
+date: 2020-12-10T13:25:15.057Z
 description: Gatsbyブログのマークダウンのコードブロックを見やすくする方法。シンタックスハイライトプラグイン、gatsby-remark-highlight-codeの導入方法についてまとめました。
 category: Gatsby
 tags:
