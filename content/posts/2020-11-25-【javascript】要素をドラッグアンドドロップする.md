@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【JavaScript】要素ドラッグ＆ドロップ
+title: 【JavaScript】要素をドラッグ＆ドロップする方法
 slug: javascript-drag-and-drop
 draft: false
 priority: 0

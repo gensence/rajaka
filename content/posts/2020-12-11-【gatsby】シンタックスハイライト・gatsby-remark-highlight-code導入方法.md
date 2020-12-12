@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【Gatsby】シンタックスハイライト･gatsby-remark-highlight-code導入方法
+title: gatsby-remark-highlight-code導入方法
 slug: gatsby-sintax-highlight
 draft: false
 priority: 0
@@ -8,11 +8,15 @@ date: 2020-12-10T13:25:15.057Z
 description: Gatsbyブログのマークダウンのコードブロックを見やすくする方法。シンタックスハイライトプラグイン、gatsby-remark-highlight-codeの導入方法についてまとめました。
 category: Gatsby
 tags:
-  - ブログ
+  - プラグイン
 ---
 # マークダウンのコードブロックを変更する
 
-当ブログのコードブロックデザインを[gatsby-remark-highlight-code](https://github.com/deckgo/gatsby-remark-highlight-code)に変更しました。
+![](/media/highlight.png)
+
+<br>
+
+コードブロックデザインを[gatsby-remark-highlight-code](https://github.com/deckgo/gatsby-remark-highlight-code)に変更しました。
 
 その際に行った手順をまとめました。
 

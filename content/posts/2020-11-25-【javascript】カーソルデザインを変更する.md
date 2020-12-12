@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【JavaScript】カーソルデザイン変更
+title: 【JavaScript】マウスカーソルデザインを変更する方法
 slug: javascript-custom-cursor
 draft: false
 priority: 0
@@ -10,7 +10,6 @@ description: |
 category: JavaScript
 tags:
   - プログラミング
-  - 実験
 ---
 このスクリプトは、マウスカーソルを十字に変更します。
 
