@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【Gatsby】シンタックスハイライト･gatsby-remark-highlight-code導入方法
+title: gatsby-remark-highlight-code導入方法
 slug: gatsby-sintax-highlight
 draft: false
 priority: 0
