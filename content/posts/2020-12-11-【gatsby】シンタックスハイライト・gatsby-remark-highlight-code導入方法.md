@@ -12,7 +12,11 @@ tags:
 ---
 # マークダウンのコードブロックを変更する
 
-当ブログのコードブロックデザインを[gatsby-remark-highlight-code](https://github.com/deckgo/gatsby-remark-highlight-code)に変更しました。
+![](/media/highlight.png)
+
+<br>
+
+コードブロックデザインを[gatsby-remark-highlight-code](https://github.com/deckgo/gatsby-remark-highlight-code)に変更しました。
 
 その際に行った手順をまとめました。
 
