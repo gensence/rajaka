@@ -21,13 +21,13 @@ tags:
 まず下記のどちらかのコマンドを実行してプラグイン（[gatsby-remark-highlight-code](https://github.com/deckgo/gatsby-remark-highlight-code)）をダウンロードして下さい。
 
 ```
-yarn add gatsby-transformer-remark gatsby-remark-highlight-code @deckdeckgo/highlight-code
+ yarn add gatsby-transformer-remark gatsby-remark-highlight-code @deckdeckgo/highlight-code
 ```
 
 または、
 
 ```
-npm install --save gatsby-transformer-remark gatsby-remark-highlight-code @deckdeckgo/highlight-code
+ npm install --save gatsby-transformer-remark gatsby-remark-highlight-code @deckdeckgo/highlight-code
 ```
 
 <br>
