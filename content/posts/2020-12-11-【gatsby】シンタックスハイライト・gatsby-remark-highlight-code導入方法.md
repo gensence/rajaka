@@ -8,7 +8,7 @@ date: 2020-12-10T13:25:15.057Z
 description: Gatsbyブログのマークダウンのコードブロックを見やすくする方法。シンタックスハイライトプラグイン、gatsby-remark-highlight-codeの導入方法についてまとめました。
 category: Gatsby
 tags:
-  - ブログ
+  - プラグイン
 ---
 # マークダウンのコードブロックを変更する
 
