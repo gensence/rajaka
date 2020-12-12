@@ -64,7 +64,7 @@
   "pitchLine": "Likes",
   "topTech": [
     "php",
-    "mysql"
+    "dodecamin"
   ],
   "tech": {
     "react": {
@@ -173,7 +173,7 @@
       "name": "MySQL",
       "logo": "mysql.svg",
       "website": "https://www.mysql.com/",
-      "displayInTopList": true
+      "displayInTopList": false
     },
     "centos": {
       "name": "CentOS",
@@ -186,6 +186,12 @@
       "logo": "symfony.png",
       "website": "https://symfony.com/",
       "displayInTopList": false
+    },
+    "dodecamin": {
+      "name": "dodecamin",
+      "logo": "dodecamin.png",
+      "website": "https://www.asahiinryo.co.jp/products/s_and_h/dodecamin_strong/",
+      "displayInTopList": true
     }
   },
   "skills": {
