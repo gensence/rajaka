@@ -46,8 +46,7 @@ img {
   flex: 0 0 25% !important;
   max-width: 25% !important;
   padding: 3%;
-  /*background: #27282b;*/
-  background: #313236;
+  background: #27282b;
 }
 
 .sidebar-divider {
@@ -94,13 +93,13 @@ img {
   background: #fff;
 }
 
-.ant-col {
+.post .ant-row {
   padding: 5px;
-  background: #fcfcfc;
+  background: #b0b0b0;
 }
 
-.ant-col h1 a {
-  font-size: 0.875rem;
+.post .ant-col h1 a {
+  font-size: 1.125rem;
 }
 
 .featured-product {
