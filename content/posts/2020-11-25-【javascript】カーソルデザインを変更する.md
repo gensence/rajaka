@@ -10,7 +10,6 @@ description: |
 category: JavaScript
 tags:
   - プログラミング
-  - 実験
 ---
 このスクリプトは、マウスカーソルを十字に変更します。
 
