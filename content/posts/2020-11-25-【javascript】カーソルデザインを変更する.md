@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【JavaScript】カーソルデザイン変更
+title: 【JavaScript】マウスカーソルデザインを変更する方法
 slug: javascript-custom-cursor
 draft: false
 priority: 0
