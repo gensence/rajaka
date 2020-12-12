@@ -9,7 +9,7 @@ description: 【DNSBL】Barracuda -
   b.barracudacentral.orgにIPアドレスが登録されてメールが届かなくなった場合の解除方法と解除メッセージ文例
 category: メール配信
 tags:
-  - ブラックリスト
+  - DNSBL
 ---
 ![](/media/barracuda-title.png)
 
