@@ -122,7 +122,10 @@ module.exports = {
           {
             resolve: `gatsby-remark-highlight-code`,
             options: {
-              terminal: 'ubuntu'
+              terminal: 'carbon',
+              theme: 'blackboard',
+              editable: 'true',
+              lineNumbers: 'true'
             }
           }
         ]
