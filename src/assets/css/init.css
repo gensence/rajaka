@@ -32,10 +32,6 @@ a:hover {
   display: -webkit-inline-box;
 }*/
 
-code {
-  font-size: 1.225rem;
-}
-
 img {
   max-width: 100%;
   max-height: 400px;
@@ -95,11 +91,15 @@ img {
 
 .post .ant-row {
   padding: 10px;
-  background: #f0f0f0;
+  background: #f6f6f6;
+}
+
+.post .ant-row .ant-divider {
+  display:none;
 }
 
 .post .ant-col h1 a {
-  font-size: 1.325rem;
+  font-size: 1.425rem;
 }
 
 .featured-product {
