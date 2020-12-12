@@ -81,7 +81,7 @@ img {
 }
 
 .post {
-  padding: 2% 5% 0%;
+  padding: 1.85% 3% 0%;
 }
 
 .post.post-featured {
@@ -90,8 +90,8 @@ img {
 }
 
 .post .ant-row {
-  padding: 10px;
-  background: #f1f1f1;
+  padding: 20px;
+  background: #ededed;
 }
 
 .post .ant-row .ant-divider {
