@@ -8,7 +8,7 @@ date: 2020-11-26T14:09:45.095Z
 description: 【DNSBL】spam.dnsbl.anonmails.deに登録された場合の解除方法と解除メッセージ文例
 category: メール配信
 tags:
-  - ブラックリスト
+  - DNSBL
 ---
 ![](/media/anonmails-title.png)
 
