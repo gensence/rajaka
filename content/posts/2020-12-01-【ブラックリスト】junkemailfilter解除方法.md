@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【DNSBL】JunkEmailFilter解除方法
+title: hostkarma.junkemailfilter.com 解除方法
 slug: dnsbl-junkemailfilter
 draft: false
 priority: 0
