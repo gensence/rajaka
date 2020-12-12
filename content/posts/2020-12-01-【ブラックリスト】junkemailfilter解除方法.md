@@ -8,7 +8,7 @@ date: 2020-11-17T13:07:09.249Z
 description: メールブラックリスト、JunkEmailFilterの解除方法をまとめました
 category: メール配信
 tags:
-  - ブラックリスト
+  - DNSBL
 ---
 ![](/media/junkemailfilter-title.png)
 
