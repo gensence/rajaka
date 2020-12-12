@@ -3,12 +3,12 @@ module.exports = {
   pathPrefix: '/',
   title: 'Rajaka.net',
   keywords:
-    'php,javascript,プログラミング,コーディング,ブログ,サンプル',
+    'php,javascript,gatsby,プログラミング,コーディング,ブログ,サンプル',
   subtitle: 'Internet freaks blog',
   copyright: '© 2020 | Rajaka.net',
   disqusShortname: 'raj',
   postsPerPage: 20,
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'G-W1GZY23V27',
   menu: [
     {
       label: 'Blog',
