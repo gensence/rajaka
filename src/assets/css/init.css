@@ -32,6 +32,10 @@ a:hover {
   display: -webkit-inline-box;
 }*/
 
+code {
+  font-size: 1.125rem;
+}
+
 img {
   max-width: 100%;
   max-height: 400px;
@@ -42,7 +46,8 @@ img {
   flex: 0 0 25% !important;
   max-width: 25% !important;
   padding: 3%;
-  background: #27282b;
+  /*background: #27282b;*/
+  background: #313236;
 }
 
 .sidebar-divider {
@@ -87,6 +92,15 @@ img {
 .post.post-featured {
   margin: 5px 0;
   background: #fff;
+}
+
+.ant-col {
+  padding: 5px;
+  background: #fcfcfc;
+}
+
+.ant-col h1 a {
+  font-size: 0.875rem;
 }
 
 .featured-product {
