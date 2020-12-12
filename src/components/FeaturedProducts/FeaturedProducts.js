@@ -4,7 +4,7 @@ import data from './data.json'
 
 const FeaturedProducts = () => {
   return (
-    <Row className="mb-2" type="flex">
+    <Row className="mb-3" type="flex">
       {data.map((product, i) => (
         <Col
           xs={24}
