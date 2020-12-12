@@ -10,7 +10,7 @@ category: Gatsby
 tags:
   - ブログ
 ---
-# マークダウンのコードブロックを見やすくしたい
+# マークダウンのコードブロックを変更する
 
 当ブログのコードブロックデザインを[gatsby-remark-highlight-code](https://github.com/deckgo/gatsby-remark-highlight-code)に変更しました。
 
