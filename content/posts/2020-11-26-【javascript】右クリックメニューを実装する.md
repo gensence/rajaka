@@ -1,6 +1,6 @@
 ---
 template: post
-title: 【JavaScript】コンテキストメニュー
+title: 【JavaScript】右クリックメニューを表示する方法
 slug: javascript-context-menu
 draft: false
 priority: 0
