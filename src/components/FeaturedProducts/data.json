@@ -1,14 +1,14 @@
 [
   {
-    "name": "365DAYS 5ちゃんねるまとめ",
+    "name": "365DAYS 5ちゃんねるまとめアンテナ",
     "logo": "/logos/365days.png",
     "description": "5chまとめブログを中心に様々なエンタメ情報を提供するアンテナサイト＆検索エンジン",
     "link": "https://365dys.com/"
   },
   {
-    "name": "SEOLIG",
+    "name": "SEOLIG 無料SEOツール",
     "logo": "/logos/seolig.png",
-    "description": "WEBSEOツールサイト",
+    "description": "MOZチェッカー、内外部リンクチェッカーなど16個のツールを掲載したSEOツールサイト",
     "link": "https://seolig.com/"
   }
 ]

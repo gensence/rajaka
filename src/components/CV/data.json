@@ -17,22 +17,22 @@
   },
   "experiments": [
     {
-      "name": "365DAYS 5ちゃんねるまとめ",
+      "name": "365DAYS 5ちゃんねるまとめアンテナ",
       "locationIcon": "chrome.svg",
       "description": "5chまとめブログを中心に様々なエンタメ情報を提供するアンテナサイト＆検索エンジン",
       "builtWith": ["php"],
       "link": "https://365dys.com/"
     },
     {
-      "name": "SEOLIG",
+      "name": "SEOLIG 無料SEOツール",
       "locationIcon": "chrome.svg",
-      "description": "WEBSEOツールサイト",
+      "description": "MOZチェッカー、内外部リンクチェッカーなど16個のツールを掲載したSEOツールサイト",
       "builtWith": ["php"],
       "link": "https://seolig.com/",
       "sourceCode": ""
     },
     {
-      "name": "VidFB",
+      "name": "VidFB Download Facebook Videos online",
       "locationIcon": "chrome.svg",
       "description": "Facebook動画ダウンローダー",
       "builtWith": ["php"],
@@ -40,16 +40,16 @@
       "sourceCode": ""
     },
     {
-      "name": "VbaFin",
+      "name": "VbaFin VBA for financial professionals",
       "locationIcon": "chrome.svg",
       "description": "金融専門家向けVBAコード＆DL可能サンプル",
       "builtWith": ["php"],
       "link": "https://www.vbafin.com/"
     },
     {
-      "name": "WebfileMan",
+      "name": "WebfileMan 安全無料のデータ転送サービス",
       "locationIcon": "chrome.svg",
-      "description": "ファイル転送サービス",
+      "description": "スマホでも簡単に使えるシンプルな高速ファイル転送サービス",
       "builtWith": ["php"],
       "link": "https://www.webfileman.com/"
     },
