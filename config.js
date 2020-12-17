@@ -1,7 +1,7 @@
 module.exports = {
   url: 'https://rajaka.net',
   pathPrefix: '/',
-  title: 'Rajaka.net',
+  title: 'Internet freaks blog',
   keywords:
     'php,javascript,gatsby,プログラミング,コーディング,ブログ,サンプル',
   subtitle: 'Internet freaks blog',

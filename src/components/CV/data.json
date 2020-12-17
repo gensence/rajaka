@@ -17,22 +17,22 @@
   },
   "experiments": [
     {
-      "name": "Infirit.com",
+      "name": "365DAYS 5ちゃんねるまとめ",
       "locationIcon": "chrome.svg",
-      "description": "雑学系コンテンツポータル＆検索エンジン",
+      "description": "5chまとめブログを中心に様々なエンタメ情報を提供するアンテナサイト＆検索エンジン",
       "builtWith": ["php"],
-      "link": "https://infirit.com/"
+      "link": "https://365dys.com/"
     },
     {
-      "name": "SeoLig.com",
+      "name": "SEOLIG",
       "locationIcon": "chrome.svg",
-      "description": "SEOツールサイト",
+      "description": "WEBSEOツールサイト",
       "builtWith": ["php"],
       "link": "https://seolig.com/",
       "sourceCode": ""
     },
     {
-      "name": "VidFB.com",
+      "name": "VidFB",
       "locationIcon": "chrome.svg",
       "description": "Facebook動画ダウンローダー",
       "builtWith": ["php"],
@@ -40,14 +40,14 @@
       "sourceCode": ""
     },
     {
-      "name": "VbaFin.com",
+      "name": "VbaFin",
       "locationIcon": "chrome.svg",
       "description": "金融専門家向けVBAコード＆DL可能サンプル",
       "builtWith": ["php"],
       "link": "https://www.vbafin.com/"
     },
     {
-      "name": "WebfileMan.com",
+      "name": "WebfileMan",
       "locationIcon": "chrome.svg",
       "description": "ファイル転送サービス",
       "builtWith": ["php"],

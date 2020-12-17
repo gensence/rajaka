@@ -1,14 +1,14 @@
 [
   {
-    "name": "Infirit.com",
-    "logo": "/logos/infirit.png",
-    "description": "検索エンジン＆雑学系ポータル",
-    "link": "https://infirit.com/"
+    "name": "365DAYS 5ちゃんねるまとめ",
+    "logo": "/logos/365days.png",
+    "description": "5chまとめブログを中心に様々なエンタメ情報を提供するアンテナサイト＆検索エンジン",
+    "link": "https://365dys.com/"
   },
   {
-    "name": "SEOLIG.com",
+    "name": "SEOLIG",
     "logo": "/logos/seolig.png",
-    "description": "SEOツールサイト",
+    "description": "WEBSEOツールサイト",
     "link": "https://seolig.com/"
   }
 ]
